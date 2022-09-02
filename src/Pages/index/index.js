@@ -1,6 +1,12 @@
-document.body.addEventListener('onload', () => {
-  console.log('oi')
+document.addEventListener('DOMContentLoaded', (e) => {
+
 })
+
+document.addEventListener('click', (e) => {
+  console.log(e)
+})
+
+
 
 
 
