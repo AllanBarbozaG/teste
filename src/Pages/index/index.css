@@ -20,6 +20,33 @@ body {
   z-index: 3;
 }
 
+.navbar-brand-style {
+  width: 25%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-brand-style p {
+  margin: 0;
+  color: white;
+  font-size: 1.9rem;
+}
+
+.navbar-brand-style p:last-child {
+  color:rgb(0, 247, 255)
+}
+
+#hydra-gaming-navbar-logo {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 2rem;
+}
+
+#hydra-gaming-navbar-logo:hover {
+  box-shadow: 0px 0px 10px 1px rgb(0, 247, 255);
+  border-radius: 1.7rem;
+}
+
 .navbar-toggler-style {
   margin-right: 2rem;
   margin-bottom: 0.2rem;
@@ -70,7 +97,7 @@ body {
   width: 100%;
   height: 39rem;
   background-color: #04425d;
-  margin-top: 7rem;
+  margin-top: 4.5rem;
 }
 
 /* CAROUSEL */
@@ -137,4 +164,5 @@ body {
   width: 100%;
   height: 100vh;
   background-color: green;
+
 }

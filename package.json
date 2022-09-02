@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Site do Time Hydra Gaming",
   "main": "index.js",
-  "homepage": "index.html",
+  "homepage": "https://hydragaming.com.br",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
