@@ -12,7 +12,7 @@ body {
 /* Navbar */
 .navbar-style {
   width: 100%;
-  background-color: #0B3344;
+  background-color: #0b3344;
   height: 4.5rem;
   box-shadow: 0px 0.08rem 0.2rem rgb(0, 247, 255);
   position: fixed;
@@ -40,8 +40,6 @@ body {
   color: rgb(0, 247, 255);
 }
 
-
-
 #hydra-gaming-navbar-logo {
   width: 4rem;
   height: 4rem;
@@ -63,7 +61,7 @@ body {
 
 .navbar-collapse-style {
   width: 100%;
-  background-color:#0B3344;
+  background-color: #0b3344;
   margin-top: 0;
   padding-top: 0;
 }
@@ -104,8 +102,7 @@ body {
 
 #main {
   width: 100%;
-  height: 39rem;
-  background-color: #04425d;
+  height: auto;
 }
 
 /* CAROUSEL */
@@ -113,10 +110,9 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 80vh;
+  height: 120vh;
   background-color: #04425d;
   align-items: center;
-  margin-top: 4.5rem;
 }
 
 #carousel-div h1 {
@@ -129,6 +125,7 @@ body {
   color: white;
   padding-top: 0.5rem;
   margin-bottom: 0;
+  margin-top: 4.5rem;
 }
 
 #carousel-div h1 p {
@@ -144,7 +141,7 @@ body {
 
 .carousel-indicators-style {
   position: absolute;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 .carousel-style {
@@ -168,22 +165,112 @@ body {
   margin-right: auto;
 }
 
-.carousel-img-description {
-
+.carousel-img-description-div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
 }
+
+.carousel-img-description-div h5 {
+  font-size: 2.3rem;
+  color: rgb(0, 247, 255);
+}
+
+.carousel-img-description-div h5:first-child {
+  margin-right: 0.2rem;
+  color: orange;
+}
+
 /* CAROUSEL */
+
+/* HYDRA-SLOGAN */
+
+#hydra-slogan-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/src/img/imgFundoUm.png");
+  justify-content: space-between;
+}
+
+#hydra-slogan-text-div {
+  width: 60%;
+  height: auto;
+  margin-left: 5rem;
+  margin-top: 12rem;
+}
+
+#hydra-slogan-div h2 {
+  align-self: center;
+  width: 80%;
+  font-size: 5rem;
+  line-height: 7rem;
+  color: #04425d;
+  font-weight: bolder;
+}
+
+#hydra-slogan-div h2:last-child {
+  color: orange;
+}
+
+.hideSloganText {
+  display: none;
+}
+
+.animateText {
+  display: inline-block;
+  animation: animationText 3s alternate 1;
+}
+
+@keyframes animationText {
+  from {
+    opacity: 0;
+    transform: translate3d(-100px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    display: inline;
+    transform: translate3d(0px, 0, 0);
+  }
+}
+
+#characters-img-div {
+  width: 100%;
+  height: 5rem;
+  position: absolute;
+  background-color: #04425d;
+  padding-top: 1.2rem;
+}
+
+#characters-img {
+  width: 75%;
+  height: 45rem;
+  position: absolute;
+
+  margin-left: 20rem;
+  animation: animationImg 3s alternate 1;
+}
+
+@keyframes animationImg {
+  from {
+    transform: translate3d(300px, 0, 0);
+  }
+  to {
+    transform: translate3d(0px, 0, 0);
+  }
+}
+
+/* HYDRA-SLOGAN */
+
 /* MAIN */
 
+/* colocar no arquivo de media query */
 @media (max-width: 994px) {
   .navbar-nav-style {
     margin-left: 1rem;
     height: 18rem;
   }
-}
-
-.teste {
-  width: 100%;
-  height: 50rem;
-  background-color: blue;
-  
 }

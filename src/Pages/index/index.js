@@ -10,7 +10,7 @@ document.addEventListener('click', (e) => {
 function setNavbarHeightAndOpacity() {
   const navbar = document.querySelector('.navbar-style')
   const carouselDiv = document.querySelector('#carousel-div')
-  const teste = document.querySelector('.teste')
+  const teste = document.querySelector('#hydra-slogan-div')
 
   navbar.addEventListener('mouseover', () => {
     if (navbar.classList.contains('hideNavbar')) {
@@ -34,3 +34,20 @@ function setNavbarHeightAndOpacity() {
   })
 }
 
+function displayHydraSloganElements() {
+  const hydraSloganDiv = document.querySelector('#hydra-slogan-div');
+  const hydraSloganH2 = document.querySelector('.hydra-slogan-h2');
+  const secondHydraSloganH2 = document.querySelector('.second-hydra-slogan-h2')
+
+  hydraSloganDiv.addEventListener('mouseover', () => {
+    if (hydraSloganH2.classList.contains('hideSloganText') && secondHydraSloganH2.classList.contains('hideSloganText')) {
+      hydraSloganH2.classList.add('animateText')
+      secondHydraSloganH2.classList.add('animateText')
+    }
+
+  })
+
+
+}
+
+displayHydraSloganElements()
