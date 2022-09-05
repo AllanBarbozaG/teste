@@ -254,6 +254,16 @@ body {
   animation: animationImg 3s alternate 1;
 }
 
+.hideCharactersImg {
+  display: none;
+}
+
+.animateCharactersImg {
+  display: block;
+  animation: animationImg 3s alternate 1;
+}
+
+
 @keyframes animationImg {
   from {
     transform: translate3d(300px, 0, 0);
