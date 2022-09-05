@@ -49,16 +49,18 @@ function displayHydraSloganAndImgElements() {
     }
   })
 
-  carouselDiv.addEventListener('mouseover', () => {
-    if (hydraSloganH2.classList.contains('animateText')) {
-      hydraSloganH2.classList.remove('animateText')
-      hydraSloganH2.classList.add('hideSloganText')
-      secondHydraSloganH2.classList.remove('animateText');
-      secondHydraSloganH2.classList.add('hideSloganText');
-      charactersImg.classList.remove('animateCharactersImg');
-      charactersImg.classList.add('hideCharactersImg');
-    }
-  })
+  // carouselDiv.addEventListener('mouseover', () => {
+  //   if (hydraSloganH2.classList.contains('animateText')) {
+  //     hydraSloganH2.classList.remove('animateText')
+  //     hydraSloganH2.classList.add('hideSloganText')
+  //     secondHydraSloganH2.classList.remove('animateText');
+  //     secondHydraSloganH2.classList.add('hideSloganText');
+  //     charactersImg.classList.remove('animateCharactersImg');
+  //     charactersImg.classList.add('hideCharactersImg');
+  //   }
+  // })
+
+  
 }
 
 displayHydraSloganAndImgElements();
