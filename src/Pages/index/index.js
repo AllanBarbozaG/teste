@@ -1,12 +1,6 @@
-const teste = document.querySelector('.teste')
-
-document.addEventListener('onload', (teste, () => {
-  console.log('oi')
-}))
-
-document.addEventListener('DOMContentLoaded', (e) => {
+window.addEventListener('load', (e) => {
+  console.log(e)
   setNavbarHeightAndOpacity()
-
 })
 
 document.addEventListener('click', (e) => {
@@ -15,27 +9,27 @@ document.addEventListener('click', (e) => {
 
 function setNavbarHeightAndOpacity() {
   const navbar = document.querySelector('.navbar-style')
-  const main = document.querySelector('#main')
+  const carouselDiv = document.querySelector('#carousel-div')
   const teste = document.querySelector('.teste')
 
   navbar.addEventListener('mouseover', () => {
-    if (navbar.classList.contains('hide')) {
-      navbar.classList.add('show')
-      navbar.classList.remove('hide')
+    if (navbar.classList.contains('hideNavbar')) {
+      navbar.classList.add('showNavbar')
+      navbar.classList.remove('hideNavbar')
     }
   })
 
-  main.addEventListener('mouseover', () => {
-    if (navbar.classList.contains('hide')) {
-      navbar.classList.add('show')
-      navbar.classList.remove('hide')
+  carouselDiv.addEventListener('mouseover', () => {
+    if (navbar.classList.contains('hideNavbar')) {
+      navbar.classList.add('showNavbar')
+      navbar.classList.remove('hideNavbar')
     }
   })
 
   teste.addEventListener('mouseover', () => {
-    if (navbar.classList.contains('show')) {
-      navbar.classList.add('hide');
-      navbar.classList.remove('show')
+    if (navbar.classList.contains('showNavbar')) {
+      navbar.classList.add('hideNavbar');
+      navbar.classList.remove('showNavbar')
     }
   })
 }

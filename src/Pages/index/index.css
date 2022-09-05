@@ -7,17 +7,17 @@ body {
   height: auto;
   display: flex;
   flex-direction: column;
-  background-color: #04425d;
 }
 
 /* Navbar */
 .navbar-style {
   width: 100%;
-  background-color: #04425d;
+  background-color: #0B3344;
   height: 4.5rem;
   box-shadow: 0px 0.08rem 0.2rem rgb(0, 247, 255);
   position: fixed;
   z-index: 3;
+  padding: 0;
 }
 
 .navbar-brand-style {
@@ -32,9 +32,15 @@ body {
   font-size: 1.9rem;
 }
 
-.navbar-brand-style p:last-child {
-  color:rgb(0, 247, 255)
+.navbar-brand-style p:nth-child(2) {
+  margin-left: 0.6rem;
 }
+
+.navbar-brand-style p:last-child {
+  color: rgb(0, 247, 255);
+}
+
+
 
 #hydra-gaming-navbar-logo {
   width: 4rem;
@@ -44,6 +50,8 @@ body {
 
 #hydra-gaming-navbar-logo:hover {
   box-shadow: 0px 0px 10px 1px rgb(0, 247, 255);
+  transform: rotate(360deg);
+  transition: transform 2s;
   border-radius: 1.7rem;
 }
 
@@ -55,7 +63,9 @@ body {
 
 .navbar-collapse-style {
   width: 100%;
-  background-color: #04425d;
+  background-color:#0B3344;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .navbar-nav-style {
@@ -76,17 +86,16 @@ body {
   color: rgb(0, 247, 255);
 }
 
-.show {
+.showNavbar {
   transition: 1.5s;
   opacity: 1;
 }
 
-.hide {
+.hideNavbar {
   transition: 1.5s;
   opacity: 0.5;
   height: 3rem;
 }
-
 /* Navbar */
 
 /* MAIN */
@@ -97,7 +106,6 @@ body {
   width: 100%;
   height: 39rem;
   background-color: #04425d;
-  margin-top: 4.5rem;
 }
 
 /* CAROUSEL */
@@ -105,9 +113,10 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 75vh;
+  height: 80vh;
   background-color: #04425d;
   align-items: center;
+  margin-top: 4.5rem;
 }
 
 #carousel-div h1 {
@@ -118,7 +127,7 @@ body {
   font-weight: bold;
   font-size: 4rem;
   color: white;
-  padding-top: 2rem;
+  padding-top: 0.5rem;
   margin-bottom: 0;
 }
 
@@ -133,23 +142,35 @@ body {
   color: orange;
 }
 
+.carousel-indicators-style {
+  position: absolute;
+  margin-bottom: 5rem;
+}
+
 .carousel-style {
   width: 100%;
   margin-top: 1rem;
+  background-color: #04425d;
 }
 
-.testando {
+.carouse-img-position {
   display: flex !important;
   flex-direction: row !important;
   color: white;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel-img-style {
-  width: 65%;
+  width: 70%;
   height: 30rem;
-  margin-left: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.carousel-img-description {
+
+}
 /* CAROUSEL */
 /* MAIN */
 
@@ -162,7 +183,7 @@ body {
 
 .teste {
   width: 100%;
-  height: 100vh;
-  background-color: green;
-
+  height: 50rem;
+  background-color: blue;
+  
 }
