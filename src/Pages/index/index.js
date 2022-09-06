@@ -11,6 +11,7 @@ function setNavbarHeightAndOpacity() {
   const navbar = document.querySelector('.navbar-style');
   const carouselDiv = document.querySelector('#carousel-div');
   const hydraSloganDiv = document.querySelector('#hydra-slogan-div');
+  const hydraDescriptionLogoDiv = document.querySelector('#hydra-description-logo-div');
 
   navbar.addEventListener('mouseover', () => {
     if (navbar.classList.contains('hideNavbar')) {
@@ -32,6 +33,14 @@ function setNavbarHeightAndOpacity() {
       navbar.classList.remove('showNavbar');
     }
   })
+
+  hydraDescriptionLogoDiv.addEventListener('mouseover', () => {
+    if (navbar.classList.contains('showNavbar')) {
+      navbar.classList.add('hideNavbar');
+      navbar.classList.remove('showNavbar');
+    }
+
+  })
 }
 
 function displayHydraSloganAndImgElements() {
@@ -40,6 +49,7 @@ function displayHydraSloganAndImgElements() {
   const secondHydraSloganH2 = document.querySelector('.second-hydra-slogan-h2');
   const charactersImg = document.querySelector('#characters-img');
   const carouselDiv = document.querySelector('#carousel-div');
+  
 
   hydraSloganDiv.addEventListener('mouseover', () => {
     if (hydraSloganH2.classList.contains('hideSloganText') && secondHydraSloganH2.classList.contains('hideSloganText') && charactersImg.classList.contains('hideCharactersImg')) {

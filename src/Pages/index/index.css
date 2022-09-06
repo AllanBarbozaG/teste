@@ -44,6 +44,8 @@ body {
   width: 4rem;
   height: 4rem;
   margin-left: 2rem;
+  transform: rotate(-360deg);
+  transition: transform 2s;
 }
 
 #hydra-gaming-navbar-logo:hover {
@@ -52,6 +54,8 @@ body {
   transition: transform 2s;
   border-radius: 1.7rem;
 }
+
+
 
 .navbar-toggler-style {
   margin-right: 2rem;
@@ -267,9 +271,11 @@ body {
 
 @keyframes animationImg {
   from {
+    opacity: 0;
     transform: translate3d(300px, 0, 0);
   }
   to {
+    opacity: 1;
     transform: translate3d(0px, 0, 0);
   }
 }
@@ -299,7 +305,7 @@ body {
 #about-us-h1 {
   color: #04425d;
   font-weight: bolder;
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 #about-us-p {
@@ -325,10 +331,10 @@ body {
 }
 
 #hydra-logo-img {
-  width: 40%;
-  height: 30rem;
+  width: 42%;
+  height: 35rem;
   position: absolute;
-  margin-top: 8rem;
+  margin-top: 4rem;
   margin-left: 2rem;
 
 }
