@@ -1,0 +1,56 @@
+@media (max-width: 599px) {
+  /* MAIN */
+  /* CAROUSEL */
+
+  #carousel-div h1 {
+    font-size: 4rem;
+  }
+
+  .carousel-img-style {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel-img-description-div {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carousel-img-description-div h5:first-child,
+  .carousel-img-description-div h5 {
+    font-size: 1.7rem;
+  }
+
+  /* CAROUSEL */
+
+  /* HYDRA-SLOGAN */
+
+  #hydra-slogan-text-div {
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 3rem;
+  }
+
+ 
+  #characters-img-div {
+    width: 100%;
+    height: 1.5rem;
+  }
+
+  #characters-img {
+    width: 100%;
+    height: 40rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    margin-top: 2rem;
+    animation: none;
+    opacity: 0.45;
+  }
+
+
+
+  /* HYDRA-SLOGAN */
+  /* MAIN */
+}
