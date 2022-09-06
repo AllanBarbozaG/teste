@@ -312,19 +312,26 @@ body {
   font-size: 4rem;
 }
 
-#about-us-h1 p:first-child {
+#about-us-h1-p-first {
   margin-left: 0.7rem;
   color: orange;
-  animation: aboutUsPAnimation 4s 1;
 }
 
-#about-us-h1 p:last-child {
+#about-us-h1-p-second {
   margin-left: 0.7rem;
   color: rgb(0, 247, 255);
-  animation: aboutUsPAnimation 16s 1;
 }
 
-@keyframes aboutUsPAnimation {
+.hideDescriptionText {
+  display: none;
+}
+
+.showDescriptionText {
+  display: block;
+  animation: animationAboutUsP 2s 1;
+}
+
+@keyframes animationAboutUsP {
   from {
     opacity: 0;
   }
@@ -333,7 +340,7 @@ body {
   }
 }
 
-#about-us-p {
+#about-us-description-p {
   width: 95%;
   margin-top: 2rem;
   font-size: 2rem;
