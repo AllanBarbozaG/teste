@@ -1,5 +1,3 @@
-
-
 document.addEventListener('click', (e) => {
 
 })
@@ -54,7 +52,6 @@ if (window.innerWidth >= 1025) {
     const charactersImg = document.querySelector('#characters-img');
     const carouselDiv = document.querySelector('#carousel-div');
 
-
     hydraSloganDiv.addEventListener('mouseover', () => {
       if (hydraSloganH2.classList.contains('hideSloganText') && secondHydraSloganH2.classList.contains('hideSloganText') && charactersImg.classList.contains('hideCharactersImg')) {
         hydraSloganH2.classList.add('animateText');
@@ -73,7 +70,6 @@ if (window.innerWidth >= 1025) {
       }
     })
   }
-  
 
   function setDisplayHydraDescription() {
     const hydraDescriptionLogoDiv = document.querySelector('#hydra-description-logo-div');
@@ -98,7 +94,7 @@ if (window.innerWidth >= 1025) {
 
 
   }
-  
+
 
 
 } else {
@@ -192,8 +188,10 @@ if (window.innerWidth >= 1025) {
     })
 
     hydraDescriptionLogoDiv.addEventListener('touchstart', (e) => {
-      console.log(e)  
+      console.log(e)
     })
+
+    // document.body.removeChild()
   }
   setDisplayHydraDescription();
 }
