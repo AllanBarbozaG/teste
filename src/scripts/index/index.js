@@ -179,11 +179,12 @@ if (window.innerWidth >= 1025) {
       }
     })
 
-    aboutUsH1PFirst.addEventListener('animationend', (e) => {
+    aboutUsH1PFirst.addEventListener('animationstart', (e) => {
       console.log(e)
       if (aboutUsH1PSecond.classList.contains('hideDescriptionText')) {
-        aboutUsH1PSecond.classList.add('showDescriptionText');
         aboutUsH1PSecond.classList.remove('hideDescriptionText');
+        aboutUsH1PSecond.classList.add('showDescriptionText');
+        
       }
     })
 
@@ -191,6 +192,8 @@ if (window.innerWidth >= 1025) {
       console.log(e)
     })
 
+
+    //remover barra de redes sociais da navbar
     // document.body.removeChild()
   }
   setDisplayHydraDescription();
