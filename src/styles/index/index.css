@@ -291,22 +291,27 @@ body {
 #hydra-description-logo-div {
   width: 100%;
   height: auto;
+  min-height: 95vh;
   background-image: url("/src/img/imgFundoUm.png");
   background-color: #04425d;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #hydra-description-div {
+  display: flex;
+  flex-direction: column;
   width: 60%;
   height: auto;
   box-sizing: border-box;
-  padding-left: 3rem;
-  padding-top: 3rem;
+  padding-left: 5rem;
+  
 }
 
 #about-us-h1 {
   display: flex;
+
   color: white;
   font-weight: bolder;
   font-size: 4rem;
@@ -340,16 +345,37 @@ body {
   }
 }
 
+#flags-div {
+  width: auto;
+  height: 4.5rem;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-left: 28.4rem;
+  padding-top: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.flag-img:first-child {
+  width: auto;
+  height: 4rem;
+}
+
+.flag-img:last-child {
+  width: auto;
+  height: 4rem;
+  margin-left: 6rem;
+  position: absolute;
+  z-index: 2;
+}
+
 #about-us-description-p {
-  width: 95%;
-  margin-top: 2rem;
-  font-size: 2rem;
-  padding: 1.5rem;
-  background-color: rgba(128, 128, 128, 0.13);
-  border-radius: 2rem;
-  box-shadow: 0px 0px 5px 0px rgba(0, 247, 255, 0.651);
+  width: 85%;
+  text-align: justify;
+  font-size: 1.8rem;
+
   color: white;
-  flex-shrink: 1;
 }
 
 #about-us-p strong {
@@ -357,15 +383,17 @@ body {
 }
 
 #hydra-logo-div {
-  width: 50%;
+  position: absolute;
+  width: auto;
+  height: auto;
+  margin-left: 40.5rem;
+  padding: 0;
 }
 
 #hydra-logo-img {
-  width: 42%;
-  height: 35rem;
-  position: absolute;
-  margin-top: 4rem;
-  margin-left: 2rem;
+  width: 43rem;
+  height: 40rem; 
+  
 }
 
 /* HYDRA DESCRIPTION */
@@ -377,24 +405,33 @@ body {
   display: block;
   justify-content: center;
   width: 100%;
-
+  height: 20vh;
   background-color: #0b3344;
-
-  transform: translateY(100%);
 }
 
 #footer-content {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 85%;
-  margin: 0;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer-img {
-  width: 10%;
+  width: auto;
+  height: 5rem;
+}
+
+.footer-img:first-child {
+  width: auto;
+  height: 6rem;
 }
 
 #footer-content p {
   color: white;
+  margin: 0;
 }
 
 /* FOOTER */
