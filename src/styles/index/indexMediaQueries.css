@@ -59,6 +59,11 @@
 
   /* HYDRA-SLOGAN */
 
+ 
+  #hydra-slogan-div {
+    min-height: 45rem;
+  }
+
   #hydra-slogan-text-div {
     width: 100%;
     display: flex;
@@ -66,7 +71,8 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
+    
   }
 
   #hydra-slogan-div h2 {
@@ -224,7 +230,7 @@
   /* HYDRA-SLOGAN */
 
   #hydra-slogan-div {
-    min-height: 42rem;
+    min-height: 52rem;
   }
 
   #hydra-slogan-text-div {
@@ -234,7 +240,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
     
   }
 
