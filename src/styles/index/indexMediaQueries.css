@@ -89,7 +89,7 @@
     margin-left: auto;
     padding: 0;
     margin-top: 6rem;
-
+    
     opacity: 0.45;
   }
 
@@ -222,6 +222,10 @@
 
   /* HYDRA-SLOGAN */
 
+  #hydra-slogan-div {
+    min-height: 42rem;
+  }
+
   #hydra-slogan-text-div {
     width: 100%;
     display: flex;
@@ -229,6 +233,12 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    
+  }
+
+  #hydra-slogan-div h2 {
+    font-size: 4.5rem;
+    line-height: 6rem;
   }
 
   #hydra-slogan-div h2:first-child {
@@ -243,10 +253,11 @@
   #characters-img {
     width: 100%;
     height: 35rem;
+    margin-top: 6.5rem;
     margin-right: auto;
     margin-left: auto;
     padding: 0;
-    margin-top: 6rem;
+    
 
     opacity: 0.45;
   }

@@ -28,7 +28,7 @@ if (window.innerWidth >= 1025) {
         navbar.classList.add('hideNavbar');
         navbar.classList.remove('showNavbar');
       }
-      
+
     })
 
     hydraSloganDiv.addEventListener('mouseover', () => {
@@ -36,7 +36,7 @@ if (window.innerWidth >= 1025) {
         navbar.classList.add('showNavbar');
         navbar.classList.remove('hideNavbar');
       }
-      
+
     })
 
     hydraDescriptionLogoDiv.addEventListener('mouseover', () => {
@@ -102,43 +102,11 @@ if (window.innerWidth >= 1025) {
 } else {
   window.addEventListener('load', (e) => {
     console.log(e)
-    setNavbarHeightAndOpacity();
+    setDisplayHydraSloganAndImgElements();
+
   })
 
-  function setNavbarHeightAndOpacity() {
-    const navbar = document.querySelector('.navbar-style');
-    const carouselDiv = document.querySelector('#carousel-div');
-    const hydraSloganDiv = document.querySelector('#hydra-slogan-div');
-    const hydraDescriptionLogoDiv = document.querySelector('#hydra-description-logo-div');
 
-    navbar.addEventListener('mouseover', () => {
-      if (navbar.classList.contains('hideNavbar')) {
-        navbar.classList.add('showNavbar');
-        navbar.classList.remove('hideNavbar');
-      }
-    })
-
-    carouselDiv.addEventListener('mouseover', () => {
-      if (navbar.classList.contains('hideNavbar')) {
-        navbar.classList.add('showNavbar');
-        navbar.classList.remove('hideNavbar');
-      }
-    })
-
-    hydraSloganDiv.addEventListener('mouseover', () => {
-      if (navbar.classList.contains('showNavbar')) {
-        navbar.classList.add('hideNavbar');
-        navbar.classList.remove('showNavbar');
-      }
-    })
-
-    hydraDescriptionLogoDiv.addEventListener('mouseover', () => {
-      if (navbar.classList.contains('showNavbar')) {
-        navbar.classList.add('hideNavbar');
-        navbar.classList.remove('showNavbar');
-      }
-    })
-  }
 
   function setDisplayHydraSloganAndImgElements() {
     const hydraSloganDiv = document.querySelector('#hydra-slogan-div');
@@ -148,7 +116,8 @@ if (window.innerWidth >= 1025) {
     const carouselDiv = document.querySelector('#carousel-div');
 
 
-    hydraSloganDiv.addEventListener('mouseover', () => {
+    hydraSloganDiv.addEventListener('touchstart', (e) => {
+      console.log(e)
       if (hydraSloganH2.classList.contains('hideSloganText') && secondHydraSloganH2.classList.contains('hideSloganText') && charactersImg.classList.contains('hideCharactersImg')) {
         hydraSloganH2.classList.add('animateText');
         secondHydraSloganH2.classList.add('animateText');
@@ -166,7 +135,7 @@ if (window.innerWidth >= 1025) {
       }
     })
   }
-  setDisplayHydraSloganAndImgElements();
+  
 
   function setDisplayHydraDescription() {
     const hydraDescriptionLogoDiv = document.querySelector('#hydra-description-logo-div');
@@ -186,7 +155,7 @@ if (window.innerWidth >= 1025) {
       if (aboutUsH1PSecond.classList.contains('hideDescriptionText')) {
         aboutUsH1PSecond.classList.remove('hideDescriptionText');
         aboutUsH1PSecond.classList.add('showDescriptionText');
-        
+
       }
     })
 
