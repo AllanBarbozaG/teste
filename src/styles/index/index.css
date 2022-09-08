@@ -118,7 +118,6 @@ body {
 
 /* MAIN */
 
-
 #main {
   width: 100%;
   height: auto !important;
@@ -130,7 +129,8 @@ body {
   flex-direction: column;
   width: 100%;
   height: auto;
-  background-color: #04425d;
+  min-height: 50rem;
+  background-color: #165f7e;
   align-items: center;
 }
 
@@ -144,7 +144,7 @@ body {
   color: white;
   padding-top: 0.5rem;
   margin-bottom: 0;
-  margin-top: 4.5rem;
+  margin-top: 2rem;
 }
 
 #carousel-div h1 p {
@@ -166,7 +166,7 @@ body {
 .carousel-style {
   width: 100%;
   margin-top: 1rem;
-  background-color: #04425d;
+  background-color: #165f7e;
 }
 
 .carouse-img-position {
@@ -179,13 +179,12 @@ body {
 
 .carousel-img-style {
   width: 70%;
-  height: 30rem;
+  height: 32em;
   margin-left: auto;
   margin-right: auto;
   border-style: solid;
   border-color: gold;
   border-width: 0.2px;
-  
 }
 
 .carousel-img-description-div {
@@ -271,15 +270,14 @@ body {
   width: 100%;
   height: 5rem;
   position: absolute;
-  background-color: #04425d;
 }
 
 #characters-img {
   width: 75%;
   height: 45rem;
   position: absolute;
+  margin-top: 4.8rem;
   margin-left: 20rem;
-  padding-top: 1.2rem;
   animation: animationImg 3s alternate 1;
 }
 
@@ -325,7 +323,6 @@ body {
   height: auto;
   box-sizing: border-box;
   padding-left: 5rem;
-  
 }
 
 #about-us-h1 {
@@ -412,8 +409,8 @@ body {
 
 #hydra-logo-img {
   width: 43rem;
-  height: 40rem; 
-  
+  height: 40rem;
+  margin-left: 8rem;
 }
 
 /* HYDRA DESCRIPTION */
@@ -452,6 +449,7 @@ body {
 #footer-content p {
   color: white;
   margin: 0;
+  width: 10%;
 }
 
 /* FOOTER */

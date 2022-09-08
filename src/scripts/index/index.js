@@ -24,17 +24,19 @@ if (window.innerWidth >= 1025) {
     })
 
     carouselDiv.addEventListener('mouseover', () => {
-      if (navbar.classList.contains('hideNavbar')) {
-        navbar.classList.add('showNavbar');
-        navbar.classList.remove('hideNavbar');
-      }
-    })
-
-    hydraSloganDiv.addEventListener('mouseover', () => {
       if (navbar.classList.contains('showNavbar')) {
         navbar.classList.add('hideNavbar');
         navbar.classList.remove('showNavbar');
       }
+      
+    })
+
+    hydraSloganDiv.addEventListener('mouseover', () => {
+      if (navbar.classList.contains('hideNavbar')) {
+        navbar.classList.add('showNavbar');
+        navbar.classList.remove('hideNavbar');
+      }
+      
     })
 
     hydraDescriptionLogoDiv.addEventListener('mouseover', () => {
