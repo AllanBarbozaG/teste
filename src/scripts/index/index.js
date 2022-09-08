@@ -96,7 +96,7 @@ if (window.innerWidth >= 1025) {
     const secondHydraSloganH2 = document.querySelector('.second-hydra-slogan-h2');
     const charactersImg = document.querySelector('#characters-img');
 
-    hydraSloganDiv.addEventListener('touchstart', (e) => {
+    hydraSloganDiv.addEventListener('load', (e) => {
       console.log(e)
       if (hydraSloganH2.classList.contains('hideSloganText') && secondHydraSloganH2.classList.contains('hideSloganText') && charactersImg.classList.contains('hideCharactersImg')) {
         hydraSloganH2.classList.add('animateText');
@@ -111,7 +111,7 @@ if (window.innerWidth >= 1025) {
     const aboutUsH1PFirst = document.querySelector('#about-us-h1-p-first');
     const aboutUsH1PSecond = document.querySelector('#about-us-h1-p-second');
 
-    hydraDescriptionLogoDiv.addEventListener('toutchstart', (e) => {
+    hydraDescriptionLogoDiv.addEventListener('touchstart', (e) => {
 
       if (aboutUsH1PFirst.classList.contains('hideDescriptionText')) {
         aboutUsH1PFirst.classList.remove('hideDescriptionText');
