@@ -91,19 +91,16 @@ if (window.innerWidth >= 1025) {
   })
 
   function setDisplayHydraSloganAndImgElements() {
-    const hydraSloganDiv = document.querySelector('#hydra-slogan-div');
+    ('#hydra-slogan-div');
     const hydraSloganH2 = document.querySelector('.hydra-slogan-h2');
     const secondHydraSloganH2 = document.querySelector('.second-hydra-slogan-h2');
     const charactersImg = document.querySelector('#characters-img');
 
-    hydraSloganDiv.addEventListener('load', (e) => {
-      console.log(e)
-      if (hydraSloganH2.classList.contains('hideSloganText') && secondHydraSloganH2.classList.contains('hideSloganText') && charactersImg.classList.contains('hideCharactersImg')) {
-        hydraSloganH2.classList.add('animateText');
-        secondHydraSloganH2.classList.add('animateText');
-        charactersImg.classList.add('animateCharactersImg');
-      }
-    })
+    if (hydraSloganH2.classList.contains('hideSloganText') && secondHydraSloganH2.classList.contains('hideSloganText') && charactersImg.classList.contains('hideCharactersImg')) {
+      hydraSloganH2.classList.add('animateText');
+      secondHydraSloganH2.classList.add('animateText');
+      charactersImg.classList.add('animateCharactersImg');
+    }
   }
 
   function setDisplayHydraDescription() {
@@ -131,6 +128,6 @@ if (window.innerWidth >= 1025) {
     //remover barra de redes sociais da navbar
     // document.body.removeChild()
   }
-  
+
 }
 
