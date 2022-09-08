@@ -52,23 +52,12 @@ if (window.innerWidth >= 1025) {
     const hydraSloganH2 = document.querySelector('.hydra-slogan-h2');
     const secondHydraSloganH2 = document.querySelector('.second-hydra-slogan-h2');
     const charactersImg = document.querySelector('#characters-img');
-    const carouselDiv = document.querySelector('#carousel-div');
 
     hydraSloganDiv.addEventListener('mouseover', () => {
       if (hydraSloganH2.classList.contains('hideSloganText') && secondHydraSloganH2.classList.contains('hideSloganText') && charactersImg.classList.contains('hideCharactersImg')) {
         hydraSloganH2.classList.add('animateText');
         secondHydraSloganH2.classList.add('animateText');
         charactersImg.classList.add('animateCharactersImg');
-      }
-    })
-
-    carouselDiv.addEventListener('mouseover', () => {
-      if (hydraSloganH2.classList.contains('animateText')) {
-        hydraSloganH2.classList.add('animateText')
-
-        secondHydraSloganH2.classList.add('animateText');
-        charactersImg.classList.add('animateCharactersImg');
-
       }
     })
   }
@@ -93,28 +82,19 @@ if (window.innerWidth >= 1025) {
         aboutUsH1PSecond.classList.remove('hideDescriptionText');
       }
     })
-
-
   }
-
-
-
 } else {
   window.addEventListener('load', (e) => {
     console.log(e)
     setDisplayHydraSloganAndImgElements();
-
+    setDisplayHydraDescription();
   })
-
-
 
   function setDisplayHydraSloganAndImgElements() {
     const hydraSloganDiv = document.querySelector('#hydra-slogan-div');
     const hydraSloganH2 = document.querySelector('.hydra-slogan-h2');
     const secondHydraSloganH2 = document.querySelector('.second-hydra-slogan-h2');
     const charactersImg = document.querySelector('#characters-img');
-    const carouselDiv = document.querySelector('#carousel-div');
-
 
     hydraSloganDiv.addEventListener('touchstart', (e) => {
       console.log(e)
@@ -124,25 +104,14 @@ if (window.innerWidth >= 1025) {
         charactersImg.classList.add('animateCharactersImg');
       }
     })
-
-    carouselDiv.addEventListener('mouseover', () => {
-      if (hydraSloganH2.classList.contains('animateText')) {
-        hydraSloganH2.classList.add('animateText')
-
-        secondHydraSloganH2.classList.add('animateText');
-        charactersImg.classList.add('animateCharactersImg');
-
-      }
-    })
   }
-  
 
   function setDisplayHydraDescription() {
     const hydraDescriptionLogoDiv = document.querySelector('#hydra-description-logo-div');
     const aboutUsH1PFirst = document.querySelector('#about-us-h1-p-first');
     const aboutUsH1PSecond = document.querySelector('#about-us-h1-p-second');
 
-    hydraDescriptionLogoDiv.addEventListener('mouseover', (e) => {
+    hydraDescriptionLogoDiv.addEventListener('toutchstart', (e) => {
 
       if (aboutUsH1PFirst.classList.contains('hideDescriptionText')) {
         aboutUsH1PFirst.classList.remove('hideDescriptionText');
@@ -159,14 +128,9 @@ if (window.innerWidth >= 1025) {
       }
     })
 
-    hydraDescriptionLogoDiv.addEventListener('touchstart', (e) => {
-      console.log(e)
-    })
-
-
     //remover barra de redes sociais da navbar
     // document.body.removeChild()
   }
-  setDisplayHydraDescription();
+  
 }
 
