@@ -21,11 +21,16 @@
   /* NAVBAR */
 
   /* MAIN */
-
   /* CAROUSEL */
+
+  #carousel-div {
+    min-height: 33rem;
+  }
 
   #carousel-div h1 {
     font-size: 2.5rem;
+    margin-top: 0;
+    padding-top: 0;
   }
 
   .carousel-indicators-style {
@@ -59,9 +64,12 @@
 
   /* HYDRA-SLOGAN */
 
- 
+  #hydra-description-logo-div {
+    min-height: 48rem;
+  }
+
   #hydra-slogan-div {
-    min-height: 45rem;
+    min-height: 39rem;
   }
 
   #hydra-slogan-text-div {
@@ -107,7 +115,7 @@
 
   #about-us-h1 {
     display: flex;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     text-align: center;
     width: 70%;
     justify-content: center;
@@ -195,7 +203,9 @@
   /* CAROUSEL */
 
   #carousel-div h1 {
-    font-size: 3.3rem;
+    font-size: 3rem;
+    margin-top: 0;
+    padding-top: 0;
   }
 
   .carousel-indicators-style {
@@ -230,7 +240,7 @@
   /* HYDRA-SLOGAN */
 
   #hydra-slogan-div {
-    min-height: 50rem;
+    min-height: 45rem;
   }
 
   #hydra-slogan-text-div {

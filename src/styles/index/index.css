@@ -129,9 +129,10 @@ body {
   flex-direction: column;
   width: 100%;
   height: auto;
-  min-height: 50rem;
+  min-height: 38rem;
   background-color: #165f7e;
   align-items: center;
+  justify-content: center;
 }
 
 #carousel-div h1 {
