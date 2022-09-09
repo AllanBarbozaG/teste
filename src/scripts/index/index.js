@@ -1,7 +1,3 @@
-document.addEventListener('click', (e) => {
-
-})
-
 if (window.innerWidth >= 1025) {
   window.addEventListener('load', (e) => {
     console.log(e)
@@ -28,7 +24,6 @@ if (window.innerWidth >= 1025) {
         navbar.classList.add('hideNavbar');
         navbar.classList.remove('showNavbar');
       }
-
     })
 
     hydraSloganDiv.addEventListener('mouseover', () => {
@@ -36,7 +31,6 @@ if (window.innerWidth >= 1025) {
         navbar.classList.add('showNavbar');
         navbar.classList.remove('hideNavbar');
       }
-
     })
 
     hydraDescriptionLogoDiv.addEventListener('mouseover', () => {
@@ -83,15 +77,15 @@ if (window.innerWidth >= 1025) {
       }
     })
   }
-} else {
+} else if (window.innerWidth < 1025) {
   window.addEventListener('load', (e) => {
     console.log(e)
     setDisplayHydraSloganAndImgElements();
-    setDisplayHydraDescription();
   })
 
+  setDisplayHydraDescription();
+
   function setDisplayHydraSloganAndImgElements() {
-    ('#hydra-slogan-div');
     const hydraSloganH2 = document.querySelector('.hydra-slogan-h2');
     const secondHydraSloganH2 = document.querySelector('.second-hydra-slogan-h2');
     const charactersImg = document.querySelector('#characters-img');
@@ -109,7 +103,6 @@ if (window.innerWidth >= 1025) {
     const aboutUsH1PSecond = document.querySelector('#about-us-h1-p-second');
 
     hydraDescriptionLogoDiv.addEventListener('touchstart', (e) => {
-
       if (aboutUsH1PFirst.classList.contains('hideDescriptionText')) {
         aboutUsH1PFirst.classList.remove('hideDescriptionText');
         aboutUsH1PFirst.classList.add('showDescriptionText');
@@ -121,13 +114,54 @@ if (window.innerWidth >= 1025) {
       if (aboutUsH1PSecond.classList.contains('hideDescriptionText')) {
         aboutUsH1PSecond.classList.remove('hideDescriptionText');
         aboutUsH1PSecond.classList.add('showDescriptionText');
-
       }
-    })
-
-    //remover barra de redes sociais da navbar
-    // document.body.removeChild()
+    })    
   }
-
 }
+
+window.addEventListener('resize', (e) => {
+  const containerFluid = document.querySelector('#container-fluid');
+  const navbarNav = document.querySelector('.navbar-nav');
+  const linksBox = document.querySelector('#links-box');
+
+  if (window.innerWidth < 995) {
+    if (linksBox.classList.contains('links-box')) {
+      linksBox.classList.remove('links-box');
+      linksBox.classList.add('links-box-from-inside-button');
+      containerFluid.removeChild(linksBox);
+      navbarNav.appendChild(linksBox);
+    }
+  } else {
+    if(linksBox.classList.contains('links-box-from-inside-button')) {
+      linksBox.classList.remove('links-box-from-inside-button');
+      linksBox.classList.add('links-box');
+      navbarNav.removeChild(linksBox);
+      containerFluid.appendChild(linksBox);
+
+    }
+  }
+})
+
+window.addEventListener('load', (e) => {
+  const containerFluid = document.querySelector('#container-fluid');
+  const navbarNav = document.querySelector('.navbar-nav');
+  const linksBox = document.querySelector('#links-box');
+
+  if (window.innerWidth < 995) {
+    if (linksBox.classList.contains('links-box')) {
+      linksBox.classList.remove('links-box');
+      linksBox.classList.add('links-box-from-inside-button');
+      containerFluid.removeChild(linksBox);
+      navbarNav.appendChild(linksBox);
+    }
+  } else {
+    if(linksBox.classList.contains('links-box-from-inside-button')) {
+      linksBox.classList.remove('links-box-from-inside-button');
+      linksBox.classList.add('links-box');
+      navbarNav.removeChild(linksBox);
+      containerFluid.appendChild(linksBox);
+    }
+  }
+})
+
 

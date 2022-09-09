@@ -99,7 +99,7 @@ body {
   height: 3rem;
 }
 
-#links-box {
+.links-box {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -114,15 +114,14 @@ body {
   padding-left: 0.4rem;
 }
 
-#links-box div {
-  display: flex;
+.links-box div {
+  display: flex !important;
 }
 
 #box-item-twitter {
   width: 3.2rem;
   height: 2.1rem;
   margin-top: 0.4rem;
-  
 }
 
 #box-item-instagram {
@@ -134,6 +133,24 @@ body {
   width: 4rem;
   height: 2.8rem;
   margin-top: 0.1rem;
+}
+
+.links-box-from-inside-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 12rem;
+  height: 2.7rem;
+
+  border-style: solid;
+  border-color: rgba(0, 247, 255, 0.575);
+  border-width: 0.05rem;
+  border-radius: 1rem;
+  padding-left: 0.4rem;
+}
+
+.links-box-from-inside-button div {
+  display: flex;
 }
 
 /* Navbar */
