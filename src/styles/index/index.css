@@ -102,18 +102,40 @@ body {
 #links-box {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 10rem;
-  height: 5rem;
+  justify-content: space-around;
+  width: 12rem;
+  height: 2.7rem;
   position: absolute;
-  margin-left: 70rem;
+  margin-left: 83%;
+  border-style: solid;
+  border-color: rgba(0, 247, 255, 0.575);
+  border-width: 0.05rem;
+  border-radius: 1rem;
+  padding-left: 0.4rem;
 }
 
-.box-item {
-  width: 5rem;
-  height: 5rem;
+#links-box div {
+  display: flex;
 }
+
+#box-item-twitter {
+  width: 3.2rem;
+  height: 2.1rem;
+  margin-top: 0.4rem;
+  
+}
+
+#box-item-instagram {
+  width: 4rem;
+  height: 2.6rem;
+}
+
+#box-item-twitch {
+  width: 4rem;
+  height: 2.8rem;
+  margin-top: 0.1rem;
+}
+
 /* Navbar */
 
 /* MAIN */
@@ -411,7 +433,6 @@ body {
 #hydra-logo-img {
   width: 43rem;
   height: 40rem;
-  
 }
 
 /* HYDRA DESCRIPTION */
