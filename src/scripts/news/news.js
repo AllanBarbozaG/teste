@@ -1,32 +1,32 @@
 function setNumberOfNewsCards() {
+  const newsContainerGrid = document.querySelector('#news-container-grid');
+
   // o array abaixo vai definir quantos cards irão surgir.
-  const newsLinksArr = ['/index.html', '/src/Pages/news/news.html', 'a', 'b', 'c', 'd', 'e']
+  const newsLinksArr = ['/index.html', '/src/Pages/news/news.html', 'a', 'b', 'c', 'd', 'e'];
 
-  const newsContainerGrid = document.querySelector('#news-container-grid')
-
-  for (let i = 0; i < newsLinksArr.length; i++) {
-    newsContainerGrid.innerHTML += `
+  newsLinksArr.map((newsLink, index) => {
+    return newsContainerGrid.innerHTML += `
       <a 
         class="news-card-link"
-        href=${newsLinksArr[i]}
+        href=${newsLink}
       >  
         <div 
-          id="news-card-id-${i}"
+          id="news-card-id-${index}"
           class="news-card"
         >
-          <p style="color: white; margin-bottom: 0">Card ${i}</p>
+          <p style="color: white; margin-bottom: 0">Card ${index}</p>
           <div 
-            id="news-card-img-div-${i}"
+            id="news-card-img-div-${index}"
             class="news-card-img"
           ></div>
-          
-
         </div>
       </a>  
     `
-  }
 
-  newsContainerGrid.appendChild(div1)
+  })
+
+
+  
 }
 
 setNumberOfNewsCards()
