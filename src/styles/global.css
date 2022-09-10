@@ -1,0 +1,182 @@
+/* Navbar */
+.navbar-style {
+  width: 100%;
+  background-color: #0b3344;
+  height: 4.5rem;
+  box-shadow: 0px 0.08rem 0.2rem rgb(0, 247, 255);
+  position: fixed;
+  z-index: 3;
+  padding: 0;
+}
+
+.navbar-brand-style {
+  width: 25%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+
+.navbar-brand-style p {
+  margin: 0;
+  color: white;
+  font-size: 1.9rem;
+}
+
+.navbar-brand-style p:nth-child(2) {
+  margin-left: 0.6rem;
+}
+
+.navbar-brand-style p:last-child {
+  color: rgb(0, 247, 255);
+}
+
+#hydra-gaming-navbar-logo {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 2rem;
+  transform: rotate(-360deg);
+  transition: transform 2s;
+}
+
+#hydra-gaming-navbar-logo:hover {
+  box-shadow: 0px 0px 10px 1px rgb(0, 247, 255);
+  transform: rotate(360deg);
+  transition: transform 2s;
+  border-radius: 1.7rem;
+}
+
+.navbar-toggler-style {
+  margin-right: 2rem;
+  margin-bottom: 0.2rem;
+  background-color: #145774;
+}
+
+.navbar-collapse-style {
+  width: 100%;
+  background-color: #0b3344;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.navbar-nav-style {
+  width: 65%;
+
+  justify-content: space-around;
+  margin-left: 4rem;
+  margin-right: 0;
+}
+
+.nav-link-style {
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.nav-link-style:hover {
+  color: rgb(0, 247, 255);
+}
+
+.showNavbar {
+  transition: 1.5s;
+  opacity: 1;
+}
+
+.hideNavbar {
+  transition: 1.5s;
+  opacity: 0.5;
+  height: 3rem;
+}
+
+.links-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 12rem;
+  height: 2.7rem;
+  position: absolute;
+  margin-left: 83%;
+  border-style: solid;
+  border-color: rgba(0, 247, 255, 0.575);
+  border-width: 0.05rem;
+  border-radius: 1rem;
+  padding-left: 0.4rem;
+}
+
+.links-box div {
+  display: flex !important;
+}
+
+#box-item-twitter {
+  width: 3.2rem;
+  height: 2.1rem;
+  margin-top: 0.4rem;
+}
+
+#box-item-instagram {
+  width: 4rem;
+  height: 2.6rem;
+}
+
+#box-item-twitch {
+  width: 4rem;
+  height: 2.8rem;
+  margin-top: 0.1rem;
+}
+
+.links-box-from-inside-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 12rem;
+  height: 2.7rem;
+
+  border-style: solid;
+  border-color: rgba(0, 247, 255, 0.575);
+  border-width: 0.05rem;
+  border-radius: 1rem;
+  padding-left: 0.4rem;
+}
+
+.links-box-from-inside-button div {
+  display: flex;
+}
+
+/* Navbar */
+
+/* FOOTER */
+
+#footer {
+  display: block;
+  justify-content: center;
+  width: 100%;
+  height: 20vh;
+  background-color: #0b3344;
+}
+
+#footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-img {
+  width: auto;
+  height: 5rem;
+}
+
+.footer-img:first-child {
+  width: auto;
+  height: 6rem;
+}
+
+#footer-content p {
+  color: white;
+  margin: 0;
+  width: 10%;
+}
+
+/* FOOTER */
