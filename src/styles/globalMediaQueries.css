@@ -160,3 +160,47 @@
 
   /* FOOTER */
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  /* NAVBAR */
+
+  .navbar-brand-style {
+    justify-content: left;
+  }
+
+  #hydra-gaming-navbar-logo {
+    height: 3rem;
+    margin-left: 1rem;
+  }
+
+  .navbar-brand-style p {
+    font-size: 1.8rem;
+  }
+
+  .navbar-toggler-style {
+    margin-right: 1rem;
+  }
+
+  /* NAVBAR */
+
+  /* FOOTER */
+
+  #footer {
+    height: 10rem;
+  }
+
+  .footer-img {
+    height: 4rem;
+  }
+
+  .footer-img:first-child {
+    height: 4rem;
+  }
+
+  #footer-content p {
+    width: 15%;
+    font-size: 0.45rem;
+  }
+
+  /* FOOTER */
+}

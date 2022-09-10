@@ -60,9 +60,8 @@
 
 .navbar-nav-style {
   width: 65%;
-
   justify-content: space-around;
-  margin-left: 4rem;
+  margin-left: 1rem;
   margin-right: 0;
 }
 
