@@ -42,6 +42,11 @@ body {
   margin-left: auto;
 }
 
+.news-card-link {
+  text-decoration: none;
+  color: white;
+}
+
 .news-card {
   display: flex;
   flex-direction: column;
@@ -68,7 +73,26 @@ body {
   background-repeat: no-repeat;
 }
 
-#news-card-img-div-1 {
+.card-type-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 1.4rem;
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+  letter-spacing: 0.13rem;
+}
+
+.news-link-title {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
 }
 
 /* NEWS CARDS GRID */
