@@ -6,7 +6,6 @@ function setNumberOfNewsCards() {
   const newsContainerGrid = document.querySelector('#news-container-grid');
 
   newsArr.map((news, index) => {
-
     newsContainerGrid.innerHTML += `
       <a 
         id="news-card-link-id-${index}"

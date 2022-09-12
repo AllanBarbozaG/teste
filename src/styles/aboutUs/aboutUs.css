@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#main {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-image: url("/src/img/imgFundoUm.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-us-div {
+  margin-left: 5rem;
+}
+
+#about-us-h1 {
+  align-self: flex-start;
+  margin-top: 1rem;
+  font-weight: bolder;
+  color: #0b3344;
+}
+
+#about-us-description {
+  width: 60%;
+  align-self: flex-start;
+  font-size: 1.8rem;
+  color: #0b3344;
+}

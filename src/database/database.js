@@ -1,4 +1,4 @@
-// o array abaixo dfine quantos cards irão surgir na página de notícias, a partir do link e do título da notícia.
+// o array abaixo define quantos cards irão surgir na página de notícias, a partir do link, do título e da imagem da notícia.
 const newsArr = [
   {
     newsLink: '/index.html',
@@ -30,21 +30,24 @@ const newsArr = [
     newsImg: '/src/img/HDR4LW.jpeg'
   },
 
-  // {
-  //   newsLink: '/index.html',
-  //   title: 'Hydra Gaming vence o sazonal 6',
-  //   newsImg: '/src/img/HDR4LW.jpeg'
-  // },
+  {
+    newsLink: '/index.html',
+    title: 'Hydra Gaming vence o sazonal 6',
+    newsImg: '/src/img/HDR4LW.jpeg'
+  },
 
-  // {
-  //   newsLink: '/index.html',
-  //   title: 'Hydra Gaming vence o sazonal 7',
-  //   newsImg: '/src/img/HDR4LW.jpeg'
-  // }
+  {
+    newsLink: '/index.html',
+    title: 'Hydra Gaming vence o sazonal 7',
+    newsImg: '/src/img/HDR4LW.jpeg'
+  }
 ];
 
 const guidesArr = [
   {
+    guideLink: 'a',
+    guideTitle: 'a',
+    guideImg: 'a'
 
   }
 ];
