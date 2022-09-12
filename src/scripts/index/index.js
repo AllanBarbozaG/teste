@@ -2,8 +2,20 @@ if (window.innerWidth >= 1025) {
   window.addEventListener('load', (e) => {
     console.log(e)
     setNavbarHeightAndOpacity();
-    setDisplayHydraSloganAndImgElements();
     setDisplayHydraDescription();
+  })
+
+  // Exibe a imagem e o slogan assim que carregada a página.
+  window.addEventListener('load', () => {
+    const hydraSloganH2 = document.querySelector('.hydra-slogan-h2');
+    const secondHydraSloganH2 = document.querySelector('.second-hydra-slogan-h2');
+    const charactersImg = document.querySelector('#characters-img');
+
+    if (hydraSloganH2.classList.contains('hideSloganText') && secondHydraSloganH2.classList.contains('hideSloganText') && charactersImg.classList.contains('hideCharactersImg')) {
+      hydraSloganH2.classList.add('animateText');
+      secondHydraSloganH2.classList.add('animateText');
+      charactersImg.classList.add('animateCharactersImg');
+    }
   })
 
   function setNavbarHeightAndOpacity() {
@@ -41,21 +53,6 @@ if (window.innerWidth >= 1025) {
     })
   }
 
-  function setDisplayHydraSloganAndImgElements() {
-    const hydraSloganDiv = document.querySelector('#hydra-slogan-div');
-    const hydraSloganH2 = document.querySelector('.hydra-slogan-h2');
-    const secondHydraSloganH2 = document.querySelector('.second-hydra-slogan-h2');
-    const charactersImg = document.querySelector('#characters-img');
-
-    hydraSloganDiv.addEventListener('mouseover', () => {
-      if (hydraSloganH2.classList.contains('hideSloganText') && secondHydraSloganH2.classList.contains('hideSloganText') && charactersImg.classList.contains('hideCharactersImg')) {
-        hydraSloganH2.classList.add('animateText');
-        secondHydraSloganH2.classList.add('animateText');
-        charactersImg.classList.add('animateCharactersImg');
-      }
-    })
-  }
-
   function setDisplayHydraDescription() {
     const hydraDescriptionLogoDiv = document.querySelector('#hydra-description-logo-div');
     const aboutUsH1PFirst = document.querySelector('#about-us-h1-p-first');
@@ -83,7 +80,7 @@ if (window.innerWidth >= 1025) {
     setDisplayHydraDescription();
   })
 
-  
+
 
   function setDisplayHydraSloganAndImgElements() {
     const hydraSloganH2 = document.querySelector('.hydra-slogan-h2');
@@ -109,7 +106,7 @@ if (window.innerWidth >= 1025) {
       }
     })
 
-    aboutUsH1PFirst.addEventListener('animationstart', () => {     
+    aboutUsH1PFirst.addEventListener('animationstart', () => {
       if (aboutUsH1PSecond.classList.contains('hideDescriptionText')) {
         aboutUsH1PSecond.classList.remove('hideDescriptionText');
         aboutUsH1PSecond.classList.add('showDescriptionText');
