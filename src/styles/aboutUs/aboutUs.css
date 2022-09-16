@@ -18,7 +18,9 @@ body {
 }
 
 #about-us-div {
+  width: 80%;
   margin-left: 5rem;
+  margin-top: 6rem;
 }
 
 #about-us-h1 {
@@ -26,11 +28,27 @@ body {
   margin-top: 1rem;
   font-weight: bolder;
   color: #0b3344;
+  font-size: 4rem;
 }
 
-#about-us-description {
-  width: 60%;
-  align-self: flex-start;
-  font-size: 1.8rem;
+.about-us-description {
+  width: 90%;
+  font-size: 2.23rem;
   color: #0b3344;
+}
+
+#hydra-logo-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  margin-top: 3rem;
+}
+
+#hydra-logo-img {
+  height: 30rem;
+  position: absolute;
+  opacity: 0.15;
 }
