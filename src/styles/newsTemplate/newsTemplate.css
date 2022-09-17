@@ -1,0 +1,69 @@
+body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#main {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-image: url("/src/img/imgFundoUm.png");
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+#return-page-link {
+  width: 5rem;
+  height: 2rem;
+  position: absolute;
+  margin-top: 7rem;
+}
+
+#return-page-link img {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 5rem;
+}
+
+#news-div {
+  width: 65%;
+  margin-top: 6rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-weight: bolder;
+  background-color: #04425d44;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+#news-title-h1 {
+  text-align: left;
+  font-size: 4.5rem;
+  color: #04425d;
+}
+
+#news-title-p {
+  text-align: left;
+}
+
+#news-body-div {
+  width: 100%;
+  height: auto;
+}
+
+.news-description-p {
+  text-align: left;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.news-description-img {
+  width: 80%;
+  height: 25rem;
+  margin-bottom: 1rem;
+}

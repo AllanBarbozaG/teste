@@ -6,6 +6,7 @@
     align-items: center;
     width: 100%;
     margin-left: 0;
+    margin-top: 6rem;
   }
 
   #about-us-h1 {
@@ -14,7 +15,7 @@
   }
 
   .about-us-description {
-    font-size: 2rem;
+    font-size: 2.3rem;
     text-align: justify;
   }
 
@@ -33,6 +34,7 @@
     align-items: center;
     width: 100%;
     margin-left: 0;
+    margin-top: 6rem;
   }
 
   #about-us-h1 {
@@ -45,12 +47,12 @@
   }
 
   .about-us-description {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     text-align: justify;
   }
 }
 
-@media screen and (min-width: 711px) {
+@media screen and (min-width: 711px) and (max-width: 823px) {
   #about-us-div {
     display: flex;
     flex-direction: column;
@@ -58,6 +60,7 @@
     align-items: center;
     width: 100%;
     margin-left: 0;
+    margin-top: 6rem;
   }
 
   #about-us-h1 {
@@ -77,15 +80,117 @@
   }
 }
 
-@media screen and (min-width: 918px) {
+@media screen and (min-width: 824px) and (max-width: 1024px) {
+  #about-us-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 6rem;
+  }
+
+  #about-us-h1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .about-us-description {
-    font-size: 2.7rem;
+    font-size: 3rem;
     text-align: justify;
   }
 
   #hydra-logo-img {
     height: 35rem;
     position: absolute;
-    opacity: 0.10;
+    opacity: 0.1;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  #about-us-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 6rem;
+  }
+
+  #about-us-h1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-us-description {
+    font-size: 3.5rem;
+    text-align: justify;
+  }
+
+  #hydra-logo-img {
+    height: 40rem;
+    position: absolute;
+    opacity: 0.1;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #main {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-image: url("/src/img/imgFundoUm.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about-us-div {
+    width: 80%;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-top: 6rem;
+  }
+
+  #about-us-h1 {
+    align-self: flex-start;
+    margin-top: 1rem;
+    font-weight: bolder;
+    color: #0b3344;
+    font-size: 4rem;
+  }
+
+  .about-us-description {
+    width: 90%;
+    font-size: 2.3rem;
+    color: #0b3344;
+    text-align: justify;
+  }
+
+  #hydra-logo-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 3rem;
+  }
+
+  #hydra-logo-img {
+    margin-top: 4rem;
+    height: 35rem;
+    position: absolute;
+    opacity: 0.1;
   }
 }

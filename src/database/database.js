@@ -1,7 +1,7 @@
 // o array abaixo define quantos cards irão surgir na página de notícias, a partir do link, do título e da imagem da notícia.
 const newsArr = [
   {
-    newsLink: '/index.html',
+    newsLink: '/src/Pages/newsTemplate/newTemplate.html',
     title: 'Hydra Gaming vence o sazonal 1',
     newsImg: '/src/img/HDR4LW.jpeg'
   },
