@@ -12,7 +12,7 @@ body {
   width: 100%;
   height: auto;
   min-height: 100vh;
-  background-image: url("/src/img/imgFundoUm.png");  
+  background-image: url("/src/img/imgFundoUm.png");
 }
 
 #title-h1 {
@@ -81,16 +81,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  min-width: 7rem;
   height: 1.4rem;
   text-decoration: none;
   color: white;
   background-color: red;
-  padding: 0.3rem;
   border-radius: 1rem;
   font-size: 0.8rem;
-  text-align: center;
   letter-spacing: 0.13rem;
+  position: absolute;
+  margin-top: 12rem;
+}
+
+.card-type-div p {
+  margin-top: 1.05rem;
 }
 
 .news-link-title {

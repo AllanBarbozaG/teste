@@ -31,7 +31,9 @@ function setNumberOfNewsCards() {
             id="card-type-div-${index}"
             class="card-type-div"
           >
-            NOTÍCIAS
+            <p>
+              NOTÍCIAS
+            </p>
           </div>
 
           <p 
