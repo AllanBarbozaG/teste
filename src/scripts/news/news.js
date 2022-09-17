@@ -17,9 +17,12 @@ function setNumberOfNewsCards() {
           id="news-card-id-${index}"
           class="news-card "
         >
-          <p style="color: white; margin-bottom: 0">
-            Card ${index}
-          </p>
+          <img 
+            src="/src/img/medalha.png" 
+            alt="medalha" 
+            id="medal-img-id-${index}"
+            class="medal-img" 
+          />
 
           <div 
             id="news-card-img-div-${index}"
