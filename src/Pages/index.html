@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./src/styles/global.css">
+    <link rel="stylesheet" href="./src/styles/globalMediaQueries.css">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/indexMediaQueries.css">
+    <title>Hydra Gaming</title>
+  </head>
+  
+  <body>
+    <header id="header">
+      <nav
+        class="navbar navbar-expand-lg navbar-style showNavbar"       
+      >
+        <div class="container-fluid" id="container-fluid" style="padding: 0; width: 100%">
+          <a class="navbar-brand d-flex navbar-brand-style" href="#">
+            <img id="hydra-gaming-navbar-logo" src="./src/img/Hydra_Champion_Vector.png" alt="Logo Hydra Gaming">
+            <p>Hydra</p><p> Gaming</p>
+          </a>
+
+          <button
+            class="navbar-toggler navbar-toggler-style"            
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse navbar-collapse-style"            
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav  navbar-nav-style">
+              <li class="">
+                <a
+                  class="nav-link-style"                  
+                  aria-current="page"
+                  href="#"
+                  >Início</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-style" href="./src/Pages/aboutUs/aboutUs.html">Sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-style" href="/src/Pages/guides/guides.html">Guias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-style" href="./src/Pages/news/news.html">Notícias</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class=" dropdown-toggle nav-link-style"                  
+                  id="dropdownItem"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"                 
+                >
+                  Times
+                </a>
+                <ul class="dropdown-menu">
+                  <li">
+                    <a class="dropdown-item" href="#">Legends Of Runeterra</a>
+                  </li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                </ul>
+              </li>             
+            </ul>                    
+          </div>
+          
+          <div id="links-box" class="links-box">
+            <div>
+              <a
+              href="https://twitter.com/sports_hydra"
+              title="Visite nosso Twitter"
+              >
+                <img src="./src/img/witter.png" id="box-item-twitter"></img>
+              </a
+            </div>
+          
+            <div>
+              <a 
+              href="https://www.instagram.com/go.hdr/"
+              title="Siga-nos no Instagram"
+              >
+                <img src="./src/img/Instagram.png" id="box-item-instagram"></img>
+             </a
+            </div>
+          
+           <div>
+              <a 
+              href="https://www.twitch.tv/gohdr"
+              title="Nos assista na Twitch"
+              >
+                <img src="./src/img/Twitch.png" id="box-item-twitch"></img>
+              </a>
+           </div>
+          </div> 
+        </div>        
+      </nav>
+    </header>
+    
+    <main id="main">             
+      <div id="hydra-slogan-div">        
+        <div id="hydra-slogan-text-div">
+          <h2 class="hydra-slogan-h2 hideSloganText">
+            CORTE UMA CABEÇA 
+          </h2>
+          <h2 class="second-hydra-slogan-h2 hideSloganText">
+            E DUAS NASCERÃO EM SEU LUGAR!
+          </h2>
+       </div>
+
+        <div id="characters-img-div" >
+          <img id="characters-img" class="hideCharactersImg"   src="./src/img/Render.png" alt="campeões">
+        </div>
+      </div>
+
+      <div id="hydra-description-logo-div">
+        <div id="hydra-description-div">
+          <h1 id="about-us-h1">
+            SOMOS <p id="about-us-h1-p-first" class="hideDescriptionText"> APENAS </p> <p id="about-us-h1-p-second" class="hideDescriptionText">UM</p>
+          </h1>
+
+          <div id="flags-div">
+            <img 
+              src="./src/img/Sticker_Brasil.png" alt="Bandeira Brasil"
+              class="flag-img">
+            <img 
+              src="./src/img/Hydra_Champion.png" alt="Bandeira Hydra Gaming" class="flag-img">            
+          </div>
+
+          <p id="about-us-description-p">
+            Fundado em 2020, a <strong>Hydra Gaming</strong> é um time que começou entre amigos e se tornou referência no cenário mundial de Legends of Runeterra, após ganhar diversos campeonatos e torneios com seu roster de jogadores habilidosos.
+          </p>
+        </div>
+
+        <div id="hydra-logo-div">
+          <img id="hydra-logo-img" src="./src/img/Hydra_sem_fundo.png" alt="Hydra Logo">
+        </div>        
+      </div>
+
+      <div id="carousel-div">
+        <h1>3 VEZES <p>CAMPEÃO</p> SAZONAL</h1>
+
+        <div id="carouselExampleCaptions" class="carousel slide carousel-style" data-bs-ride="carousel">          
+          <div class="carousel-indicators carousel-indicators-style">            
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="9000">
+              <div class="carousel-img-position">
+                <img src="./src/img/BlackBoss.jpg" class="d-block carousel-img-style" alt="...">              
+                <div class="carousel-img-description-div"
+                >
+                  <div id="medal-img-div">
+                    <img 
+                      class="medal-img" 
+                      src="/src/img/medalha.png" alt="medalha"
+                    >
+                    
+                  </div>
+                  <h5>2021</h5>
+                  <h5>BETWEEN WORLDS SEASONAL TOURNAMENT</h5>                 
+                </div>             
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="8900">
+              <div class="carousel-img-position">
+                <img src="./src/img/Emoetional.jpg" class="d-block carousel-img-style" alt="...">               
+                <div class="carousel-img-description-div">
+                  <div id="medal-img-div">
+                    <img 
+                      class="medal-img" 
+                      src="/src/img/medalha.png" alt="medalha"
+                    >
+                  </div>
+                  <h5>2021</h5>
+                  <h5>RISE OF THE UNDERWORLDS SEASONAL TOURNAMENT</h5>                  
+                </div>               
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="8800">
+              <div class="carousel-img-position">
+              <img src="./src/img/HDR4LW.jpeg" class="d-block carousel-img-style" alt="...">
+              <div class="carousel-img-description-div">
+                <div id="medal-img-div">
+                  <img 
+                    class="medal-img" 
+                    src="/src/img/medalha.png" alt="medalha"
+                  >
+                </div>
+                <h5>2022</h5>
+                <h5>FORCES FROM BEYOND SEASONAL TOURNAMENT</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev carousel-button-position" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next carousel-button-position" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>   
+      </div>
+    </main>    
+
+    <footer id="footer">
+      <div id="footer-content">
+        <img class="footer-img" src="./src/img/StayOnTop.png" alt="">
+        <img class="footer-img" src="./src/img/Hydra_Champion_Vector.png" alt="">
+        <p>₢ ALL RIGHTS RESERVED TO HYDRA GAMING</p>        
+      </div>
+    </footer>    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/scripts/index/index.js"></script>
+    <script src="./src/scripts/global.js"></script>
+  </body>
+</html>
