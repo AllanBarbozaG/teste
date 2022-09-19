@@ -15,13 +15,13 @@ function setNumberOfGuideCards() {
       >  
         <div          
           id="guide-card-id-${index}"
-          class="guide-card "
+          class="guide-card"
         >
           <img 
-            src="/src/img/medalha.png" 
-            alt="medalha" 
-            id="medal-img-id-${index}"
-            class="medal-img" 
+            src="/src/img/controls.png" 
+            alt="controle" 
+            id="control-img-id-${index}"
+            class="control-img" 
           />
 
           <div 

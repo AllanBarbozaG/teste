@@ -43,6 +43,10 @@ body {
   margin-bottom: 2rem;
 }
 
+.news-card-link:hover {
+  animation: animatedCard 10s linear 1s 1;
+}
+
 .news-card {
   display: flex;
   flex-direction: column;
@@ -51,19 +55,26 @@ body {
   height: 20rem;
   background-color: #04425d !important;
   border-radius: 1rem;
-
   box-shadow: 0px 0px 5px black;
 }
 
 .news-card:hover {
-  transition: 1s;
-  animation: animateCard 1s alternate 1;
+  animation: animateCard 1s linear 1;
   box-shadow: 0px 0px 5px #04425d;
 }
 
 @keyframes animateCard {
   from {
     transform: scale3d(1, 1, 1);
+  }
+  to {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+
+@keyframes animatedCard {
+  from {
+    transform: scale3d(1.1, 1.1, 1);
   }
   to {
     transform: scale3d(1.1, 1.1, 1);

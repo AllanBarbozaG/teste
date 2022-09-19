@@ -88,11 +88,22 @@ body {
 .carousel-img-description-div h5 {
   font-size: 2.3rem;
   color: rgb(0, 247, 255);
+  margin-right: 0.5rem;
 }
 
-.carousel-img-description-div h5:first-child {
+.carousel-img-description-div h5:last-child {
   margin-right: 0.2rem;
   color: orange;
+}
+
+#medal-img-div {
+  z-index: 2;
+  margin-bottom: 0.5rem;
+}
+
+.medal-img {
+  height: 3rem;
+  
 }
 
 /* CAROUSEL */
