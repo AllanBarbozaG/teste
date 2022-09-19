@@ -43,6 +43,7 @@ const newsArr = [
   }
 ];
 
+// o array abaixo define quantos cards irão surgir na página de guias, a partir do link, do título e da imagem do guia.
 const guidesArr = [
   {
     guideLink: '/index.html',

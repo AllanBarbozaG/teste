@@ -12,7 +12,8 @@
     text-align: justify;
   }
 
-  .news-description-img, .news-description-video {
+  .news-description-img,
+  .news-description-video {
     height: auto;
   }
 }

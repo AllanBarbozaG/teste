@@ -12,7 +12,6 @@ body {
   min-height: 100vh;
   background-image: url("/src/img/imgFundoUm.png");
   display: flex;
-
   margin-bottom: 3rem;
 }
 
@@ -20,8 +19,8 @@ body {
   width: auto;
   height: 2rem;
   position: absolute;
-  margin-top: 7rem;
-  margin-left: 5rem;
+  margin-top: 6.3rem;
+  margin-left: 2rem;
 }
 
 #return-page-link img {
@@ -44,7 +43,7 @@ body {
 
 #news-title-h1 {
   text-align: left;
-  font-size: 4.5rem;
+  font-size: 4rem;
   color: #04425d;
 }
 
