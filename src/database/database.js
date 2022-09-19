@@ -2,54 +2,90 @@
 const newsArr = [
   {
     newsLink: '/src/Pages/newsTemplate/newTemplate.html',
-    title: 'Hydra Gaming vence o sazonal 1',
+    newsTitle: 'Hydra Gaming vence o sazonal 1',
     newsImg: '/src/img/HDR4LW.jpeg'
   },
 
   {
     newsLink: '/index.html',
-    title: 'Hydra Gaming vence o sazonal 2',
+    newsTitle: 'Hydra Gaming vence o sazonal 2',
     newsImg: '/src/img/HDR4LW.jpeg'
   },
 
   {
     newsLink: '/index.html',
-    title: 'Hydra Gaming vence o sazonal 3',
+    newsTitle: 'Hydra Gaming vence o sazonal 3',
     newsImg: '/src/img/HDR4LW.jpeg'
   },
 
   {
     newsLink: '/index.html',
-    title: 'Hydra Gaming vence o sazonal 4',
+    newsTitle: 'Hydra Gaming vence o sazonal 4',
     newsImg: '/src/img/HDR4LW.jpeg'
   },
 
   {
     newsLink: '/index.html',
-    title: 'Hydra Gaming vence o sazonal 5',
+    newsTitle: 'Hydra Gaming vence o sazonal 5',
     newsImg: '/src/img/HDR4LW.jpeg'
   },
 
   {
     newsLink: '/index.html',
-    title: 'Hydra Gaming vence o sazonal 6',
+    newsTitle: 'Hydra Gaming vence o sazonal 6',
     newsImg: '/src/img/HDR4LW.jpeg'
   },
 
   {
     newsLink: '/index.html',
-    title: 'Hydra Gaming vence o sazonal 7',
+    newsTitle: 'Hydra Gaming vence o sazonal 7',
     newsImg: '/src/img/HDR4LW.jpeg'
   }
 ];
 
 const guidesArr = [
   {
-    guideLink: 'a',
-    guideTitle: 'a',
-    guideImg: 'a'
+    guideLink: '/index.html',
+    guideTitle: 'Guia teste',
+    guideImg: '/src/img/Emoetional.jpg'
+  },
 
-  }
+  {
+    guideLink: '/index.html',
+    guideTitle: 'Guia teste',
+    guideImg: '/src/img/Emoetional.jpg'
+  },
+
+  {
+    guideLink: '/index.html',
+    guideTitle: 'Guia teste',
+    guideImg: '/src/img/Emoetional.jpg'
+  },
+
+  {
+    guideLink: '/index.html',
+    guideTitle: 'Guia teste',
+    guideImg: '/src/img/Emoetional.jpg'
+  },
+
+  {
+    guideLink: '/index.html',
+    guideTitle: 'Guia teste',
+    guideImg: '/src/img/Emoetional.jpg'
+  },
+
+  {
+    guideLink: '/index.html',
+    guideTitle: 'Guia teste',
+    guideImg: '/src/img/Emoetional.jpg'
+  },
+
+  {
+    guideLink: '/index.html',
+    guideTitle: 'Guia teste',
+    guideImg: '/src/img/Emoetional.jpg'
+  },
+
 ];
 
 const teamsArr = [

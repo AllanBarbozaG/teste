@@ -287,18 +287,15 @@ body {
 }
 
 #hydra-logo-div {
-  position: absolute;
   width: auto;
   height: auto;
-  margin-left: 40.5rem;
   padding: 0;
 }
 
 #hydra-logo-img {
-  width: 43rem;
+  width: 40rem;
   height: 40rem;
-  flex-shrink: inherit;
-  margin-left: 3rem;
+  margin-left: 0;
 }
 
 /* HYDRA DESCRIPTION */

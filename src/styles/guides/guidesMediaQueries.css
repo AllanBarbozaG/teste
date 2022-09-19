@@ -1,0 +1,37 @@
+@media screen and (max-width: 790px) {
+  /* MAIN */
+  /* GUIDES GRID */
+
+  #title-h1 {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .guide-card-link {
+    margin-left: 0;
+  }
+
+  /* GUIDES GRID */
+  /* MAIN */
+}
+
+@media screen and (min-width: 791px) and (max-width: 1024px) {
+  /* MAIN */
+  /* GUIDES GRID */
+
+  #guides-container-grid {
+    width: 100%;
+  }
+
+  #title-h1 {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .guide-card-link {
+    margin-left: 2rem;
+  }
+
+  /* GUIDES GRID */
+  /* MAIN */
+}

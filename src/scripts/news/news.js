@@ -43,7 +43,7 @@ function setNumberOfNewsCards() {
             id="news-card-title-${index}"
             class="news-link-title"
           >
-            ${news.title}
+            ${news.newsTitle}
           </p>
         </div>
       </a>  
