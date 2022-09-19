@@ -74,7 +74,44 @@ if (window.innerWidth >= 1025) {
       }
     })
   }
-} 
+} else if (window.innerWidth < 1025) {
+  window.addEventListener('load', () => {
+    setDisplayHydraSloganAndImgElements();
+    setDisplayHydraDescription();
+  })
+
+  function setDisplayHydraSloganAndImgElements() {
+    const hydraSloganH2 = document.querySelector('.hydra-slogan-h2');
+    const secondHydraSloganH2 = document.querySelector('.second-hydra-slogan-h2');
+    const charactersImg = document.querySelector('#characters-img');
+
+    if (hydraSloganH2.classList.contains('hideSloganText') && secondHydraSloganH2.classList.contains('hideSloganText') && charactersImg.classList.contains('hideCharactersImg')) {
+      hydraSloganH2.classList.add('animateText');
+      secondHydraSloganH2.classList.add('animateText');
+      charactersImg.classList.add('animateCharactersImg');
+    }
+  }
+
+  function setDisplayHydraDescription() {
+    const hydraDescriptionLogoDiv = document.querySelector('#hydra-description-logo-div');
+    const aboutUsH1PFirst = document.querySelector('#about-us-h1-p-first');
+    const aboutUsH1PSecond = document.querySelector('#about-us-h1-p-second');
+
+    hydraDescriptionLogoDiv.addEventListener('touchstart', () => {
+      if (aboutUsH1PFirst.classList.contains('hideDescriptionText')) {
+        aboutUsH1PFirst.classList.remove('hideDescriptionText');
+        aboutUsH1PFirst.classList.add('showDescriptionText');
+      }
+    })
+
+    aboutUsH1PFirst.addEventListener('animationstart', () => {
+      if (aboutUsH1PSecond.classList.contains('hideDescriptionText')) {
+        aboutUsH1PSecond.classList.remove('hideDescriptionText');
+        aboutUsH1PSecond.classList.add('showDescriptionText');
+      }
+    })
+  }
+}
 
 
 
