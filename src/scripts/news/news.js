@@ -18,8 +18,8 @@ function setNumberOfNewsCards() {
           class="news-card "
         >
           <img 
-            src="/src/img/medalha.png" 
-            alt="medalha" 
+            src="/src/img/news-world.png" 
+            alt="platena 
             id="medal-img-id-${index}"
             class="medal-img" 
           />
