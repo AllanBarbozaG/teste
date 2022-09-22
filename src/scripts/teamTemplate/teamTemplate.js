@@ -25,12 +25,22 @@ function setNumberOfNewsCards() {
 
           <img
             src="/src/img//person.png"
-            style="background-image: linear-gradient(to top left, rgb(0, 0, 255), rgba(16, 116, 231, 0.788));"
+            style="background-image: linear-gradient(to top left, rgb(0, 0, 255), rgb(16, 116, 231));"
             id="player-img-id-${index}"
             class="player-img"
           />
-
         </div>
+
+        <div
+          id="player-infos-div-id-${index}"
+          class="player-infos"
+        >
+          <h4 
+            id="player-name-h4-id-${index}"
+            class="player-name"
+          > ${player.name} </h4>
+        </div>
+
       </div>
     
         

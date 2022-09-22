@@ -37,28 +37,61 @@ body {
 }
 
 .player-card-div {
-  width: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 .player-photo-div {
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  
 }
 
 .frame-img {
-  height: 25rem;
- 
+  height: 27rem;
+  position: relative;
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+  left: -2.55rem;
   
 }
 
 .player-img {
-  height: 11rem;
+  height: 13rem;
   border-radius: 100%;
   position: relative;
-  left: -18.6rem;
-  top: 0.38rem;
+  top: -0.1rem;
+  left: -23rem;
   z-index: -1;
 }
 
+.player-infos {
+  display: flex;
+  width: 16rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 19.2rem;
+  border-top-left-radius: 33%;
+  border-top-right-radius: 33%;
+  height: 30rem;
+  z-index: -2;
+  background-color: #04425d;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  box-shadow: 0px 0px 5px black;
+  
+}
 
+.player-name {
+
+}
 
 /* TEAM CARDS GRID */
 
