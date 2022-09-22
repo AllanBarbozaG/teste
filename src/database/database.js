@@ -94,7 +94,19 @@ const teamsArr = [
   legendsOfRuneterra = {
     players: [
       {
-        photo: '/src/img/person.jpg',
+        photo: '/src/img/person.png',
+        name: 'Nome do Jogador',
+        nick: 'player 1',
+        age: '30',
+        playStyle: 'ofensivo',
+        championshipOne: '1o lugar no campeonato 1',
+        championshipTwo: '1o lugar no campeonato 2',
+        location: 'local 1',
+        curiosity: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis quae magni quibusdam'
+      },
+
+      {
+        photo: '/src/img/person.png',
         name: 'Nome do Jogador',
         nick: 'player 1',
         age: '30',
@@ -106,7 +118,7 @@ const teamsArr = [
       },
 
       {
-        photo: '/src/img/person.jpg',
+        photo: '/src/img/person.png',
         name: 'Nome do Jogador',
         nick: 'player 1',
         age: '30',
@@ -118,19 +130,7 @@ const teamsArr = [
       },
 
       {
-        photo: '/src/img/person.jpg',
-        name: 'Nome do Jogador',
-        nick: 'player 1',
-        age: '30',
-        playStyle: 'ofensivo',
-        championshipOne: '1o lugar no campeonato 1',
-        championshipTwo: '1o lugar no campeonato 2',
-        location: 'local 1',
-        curiosity: 'curiosidade 1'
-      },
-
-      {
-        photo: '/src/img/person.jpg',
+        photo: '/src/img/person.png',
         name: 'Nome do Jogador',
         nick: 'player 1',
         age: '30',

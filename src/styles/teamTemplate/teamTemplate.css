@@ -6,8 +6,6 @@ body {
   flex-wrap: wrap;
 }
 
-
-
 /* MAIN */
 
 #main {
@@ -91,9 +89,40 @@ body {
   left: 3rem;
 }
 
-.player-name {
+.player-name-and-nick {
+  margin-top: 12rem;
+  margin-bottom: 0rem;
+  color: orange;
 }
 
+.player-name-and-nick p {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.player-info-element {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+
+
+
+.icon-img {
+  height: 2rem;
+}
+
+.player-info {
+  color: white;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+
+.player-curiosity {
+  font-size: 1rem;
+}
 /* TEAM CARDS GRID */
 
 /* MAIN */

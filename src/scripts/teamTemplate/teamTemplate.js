@@ -1,13 +1,9 @@
 window.addEventListener('load', () => {
-  setNumberOfNewsCards(); 
+  setNumberOfPlayerCards();
 
 })
 
-
-
-
-
-function setNumberOfNewsCards() {
+function setNumberOfPlayerCards() {
   const teamContainerGrid = document.querySelector('#team-container-grid');
 
   const lorPlayers = teamsArr[0].players;
@@ -29,7 +25,7 @@ function setNumberOfNewsCards() {
           />
 
           <img
-            src="/src/img//person.png"
+            src=${player.photo}
             style="background-image: linear-gradient(to top left, rgb(0, 0, 255), rgb(16, 116, 231));"
             id="player-img-id-${index}"
             class="player-img"
@@ -41,8 +37,84 @@ function setNumberOfNewsCards() {
             >
               <h4 
                 id="player-name-h4-id-${index}"
-                class="player-name"
-              > ${player.name} </h4>
+                class="player-name-and-nick"
+              > 
+                ${player.name} 
+                <br>
+                <p>
+                 [${player.nick}], ${player.age} anos
+                </p>
+              </h4>
+
+              <div                 
+                class="player-info-element"
+              >
+                <img                   
+                  class="icon-img"
+                  src="/src/img/pointer.png"
+                  alt="#"
+                />
+
+                <p                  
+                  class="player-info"
+                >
+                  ${player.location}
+                </p>
+              </div>
+
+              <div                 
+                class="player-info-element"
+              >
+                <img                   
+                  class="icon-img"
+                  src="/src/img/pointer.png"
+                  alt="#"
+                />
+
+                <p                  
+                  class="player-info"
+                >
+                  ${player.playStyle}
+                </p>
+              </div>
+
+              <div                 
+                class="player-info-element"
+              >
+                <img                   
+                  class="icon-img"
+                  src="/src/img/trophy.png"
+                  alt="#"
+                />
+
+                <p                  
+                  class="player-info"
+                >
+                  ${player.championshipOne}
+                </p>
+              </div>
+
+              <div                 
+                class="player-info-element"
+              >
+                <img                   
+                  class="icon-img"
+                  src="/src/img/trophy.png"
+                  alt="#"
+                />
+
+                <p    
+                                
+                  class="player-info player-curiosity"
+                >
+                  ${player.curiosity}
+                </p>
+              </div>
+
+
+              
+
+              
            </div>
         </div>
 
