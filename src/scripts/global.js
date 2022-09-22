@@ -35,3 +35,16 @@ window.addEventListener('resize', (e) => {
   }
 })
 
+window.addEventListener("DOMContentLoaded", () => {
+  setRemoveLoader();
+})
+
+function setRemoveLoader() {
+  const body = document.querySelector('body')
+  const loader = document.querySelector('#loader')
+
+  setTimeout(() => {
+    console.log('timeout')
+    body.removeChild(loader)
+  }, 3000);
+}
