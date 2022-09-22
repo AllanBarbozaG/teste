@@ -89,6 +89,7 @@ const guidesArr = [
 
 ];
 
+// o array abaixo define quantos cards irão surgir na página de time, a partir das informações de cada jogador.
 const teamsArr = [
   legendsOfRuneterra = {
     players: [
@@ -144,7 +145,3 @@ const teamsArr = [
   }
 ]
 
-const LORplayer = teamsArr[0].players;
-LORplayer.map((player) => {
-  console.log(player)
-})

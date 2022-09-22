@@ -1,6 +1,38 @@
 window.addEventListener('load', () => {
-  setNumberOfNewsCards()
+  const body = document.querySelector('body')
+  const header = document.querySelector('#header')
+  const main = document.querySelector('#main')
+  const footer = document.querySelector('#footer')
+
+  const loader = document.createElement('div')
+
+  loader.innerHTML = `
+    <h3>Carregando</h3>
+  `
+
+
+  body.removeChild(header)
+  body.removeChild(main)
+  body.removeChild(footer)
+  body.appendChild(loader)
+
+
+
+  setTimeout(() => {
+    console.log('timeout')
+    body.removeChild(loader)
+    body.appendChild(header)
+    body.appendChild(main)
+    body.appendChild(footer)
+
+    setNumberOfNewsCards()
+  }, 3000);
+
+
+
+
 })
+
 
 function setNumberOfNewsCards() {
   const teamContainerGrid = document.querySelector('#team-container-grid');
@@ -67,3 +99,4 @@ function setNumberOfNewsCards() {
           </p>
 
 */}
+
