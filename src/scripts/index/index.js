@@ -1,3 +1,15 @@
+function setRemoveLoader() {
+  const body = document.querySelector('body')
+  const indexLoader = document.querySelector('#index-loader');
+  const charactersImg = document.querySelector('#characters-img');
+
+  charactersImg.addEventListener('animationstart', () => {    
+    body.removeChild(indexLoader)
+  })
+}
+setRemoveLoader()
+
+
 if (window.innerWidth >= 1025) {
   window.addEventListener('load', (e) => {
     console.log(e)
