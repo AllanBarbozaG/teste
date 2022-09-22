@@ -93,22 +93,53 @@ const teamsArr = [
   legendsOfRuneterra = {
     players: [
       {
-        playerNick: 'player1',
-        playerLocation: 'local1',
-        playerMoreInfos: 'moreInfos1'
+        photo: '/src/img/person.jpg',
+        name: 'Nome do Jogador',
+        nick: 'player 1',
+        age: '30',
+        playStyle: 'ofensivo',
+        championshipOne: '1o lugar no campeonato 1',
+        championshipTwo: '1o lugar no campeonato 2',
+        location: 'local 1',
+        curiosity: 'curiosidade 1'
       },
 
       {
-        playerNick: 'player2',
-        playerLocation: 'local2',
-        playerMoreInfos: 'moreInfos2'
+        photo: '/src/img/person.jpg',
+        name: 'Nome do Jogador',
+        nick: 'player 1',
+        age: '30',
+        playStyle: 'ofensivo',
+        championshipOne: '1o lugar no campeonato 1',
+        championshipTwo: '1o lugar no campeonato 2',
+        location: 'local 1',
+        curiosity: 'curiosidade 1'
       },
 
       {
-        playerNick: 'player3',
-        playerLocation: 'local3',
-        playerMoreInfos: 'moreInfos3'
-      }
+        photo: '/src/img/person.jpg',
+        name: 'Nome do Jogador',
+        nick: 'player 1',
+        age: '30',
+        playStyle: 'ofensivo',
+        championshipOne: '1o lugar no campeonato 1',
+        championshipTwo: '1o lugar no campeonato 2',
+        location: 'local 1',
+        curiosity: 'curiosidade 1'
+      },
+
+      {
+        photo: '/src/img/person.jpg',
+        name: 'Nome do Jogador',
+        nick: 'player 1',
+        age: '30',
+        playStyle: 'ofensivo',
+        championshipOne: '1o lugar no campeonato 1',
+        championshipTwo: '1o lugar no campeonato 2',
+        location: 'local 1',
+        curiosity: 'curiosidade 1'
+      },
+
     ]
   }
 ]

@@ -1,0 +1,65 @@
+body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* MAIN */
+
+#main {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-image: url("/src/img/imgFundoUm.png");
+}
+
+#title-h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+  margin-top: 7rem;
+  margin-left: 5rem;
+  color: #04425d;
+}
+
+/* TEAM CARDS GRID */
+
+#team-container-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  flex-wrap: wrap;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.player-card-div {
+  width: 100%;
+}
+
+.player-photo-div {
+}
+
+.frame-img {
+  height: 25rem;
+ 
+  
+}
+
+.player-img {
+  height: 11rem;
+  border-radius: 100%;
+  position: relative;
+  left: -18.6rem;
+  top: 0.38rem;
+  z-index: -1;
+}
+
+
+
+/* TEAM CARDS GRID */
+
+/* MAIN */
