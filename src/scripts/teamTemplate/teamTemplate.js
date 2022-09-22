@@ -29,17 +29,19 @@ function setNumberOfNewsCards() {
             id="player-img-id-${index}"
             class="player-img"
           />
+
+          <div
+            id="player-infos-div-id-${index}"
+            class="player-infos"
+            >
+              <h4 
+                id="player-name-h4-id-${index}"
+                class="player-name"
+              > ${player.name} </h4>
+           </div>
         </div>
 
-        <div
-          id="player-infos-div-id-${index}"
-          class="player-infos"
-        >
-          <h4 
-            id="player-name-h4-id-${index}"
-            class="player-name"
-          > ${player.name} </h4>
-        </div>
+      
 
       </div>
     
