@@ -40,10 +40,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+}
+
+#player-card-div-id-3 {
+  position: relative;
+  top: -35rem;
 }
 
 .player-photo-div {
   width: 100%;
+  overflow: hidden;
   
 }
 
