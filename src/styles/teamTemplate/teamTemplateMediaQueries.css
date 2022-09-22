@@ -1,31 +1,73 @@
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 752px) {
   /* MAIN */
   /* TEAM GRID */
+
+  #team-container-grid {
+    height: 171rem;
+  }
 
   #title-h1 {
     text-align: center;
     margin-left: 0;
+    width: 96%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #player-card-div-id-1 {
+    position: relative;
+    top: -34rem;
+  }
+
+  #player-card-div-id-2 {
+    position: relative;
+    top: -68rem;
+  }
+
+  #player-card-div-id-3 {
+    position: relative;
+    top: -102rem;
   }
 
   .player-card-link {
     margin-left: 0;
   }
 
+  .frame-img {
+    left: -3.55rem;
+  }
+
+  .player-img {
+    left: 3rem;
+  }
+
+  .player-infos {
+    left: 2rem;
+  }
+
   /* TEAM GRID */
   /* MAIN */
 }
 
-@media screen and (min-width: 791px) and (max-width: 1024px) {
+@media screen and (min-width: 753px) and (max-width: 959px) {
   /* MAIN */
   /* TEAM GRID */
 
   #team-container-grid {
     width: 100%;
+    height: 95rem;
   }
 
   #title-h1 {
     text-align: center;
     margin-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #player-card-div-id-2 {
+    position: relative;
+    top: -35rem;
   }
 
   .player-card-link {
@@ -34,4 +76,50 @@
 
   /* TEAM GRID */
   /* MAIN */
+}
+
+@media screen and (min-width: 960px) and (max-width: 1129px) {
+  #title-h1 {
+    text-align: center;
+    margin-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #team-container-grid {
+    height: 95rem;
+  }
+
+  #player-card-div-id-2 {
+    position: relative;
+    top: -35rem;
+  }
+}
+
+@media screen and (min-width: 1130px) and (max-width: 1505px) {
+  #title-h1 {
+    text-align: center;
+    margin-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #player-card-div-id-2 {
+    top: 0;
+  }
+}
+
+@media screen and (min-width: 1506px) {
+  #team-container-grid {
+    height: 60rem;
+  }
+
+  .player-card-div {
+    position: relative;
+    top: 0;
+  }
+
+  #player-card-div-id-3 {
+    top: 0;
+  }
 }

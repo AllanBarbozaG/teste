@@ -10,7 +10,7 @@ function setRemoveLoader() {
   setTimeout(() => {
     console.log('timeout')
     body.removeChild(loader)
-  }, 2000);
+  }, 1000);
 }
 
 // DEFINE A POSIÇÃO DO BOTÃO DE REDES SOCIAIS. RELACIONADO À NAVBAR/MENU DE CELULAR AO CARREGAR A PÁGINA
