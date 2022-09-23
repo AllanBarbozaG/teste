@@ -49,6 +49,11 @@
     justify-content: left;
   }
 
+  #hydra-gaming-navbar-logo {
+    width: 3rem;
+    height: 3rem;
+  }
+
   /* NAVBAR */
 
   /* FOOTER */
@@ -126,6 +131,7 @@
 
   #hydra-gaming-navbar-logo {
     height: 3rem;
+    width: 3rem;
     margin-left: 1rem;
   }
 
@@ -170,6 +176,7 @@
 
   #hydra-gaming-navbar-logo {
     height: 3rem;
+    width: 3rem;
     margin-left: 1rem;
   }
 
@@ -203,4 +210,11 @@
   }
 
   /* FOOTER */
+}
+
+@media screen and (min-width: 994px) {
+  .links-box-from-inside-button {
+    position: absolute;
+    right: 2rem;
+  }
 }

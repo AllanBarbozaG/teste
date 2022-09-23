@@ -1,6 +1,5 @@
 window.addEventListener('load', () => {
   setNumberOfPlayerCards();
-
 })
 
 function setNumberOfPlayerCards() {
@@ -34,101 +33,84 @@ function setNumberOfPlayerCards() {
           <div
             id="player-infos-div-id-${index}"
             class="player-infos"
+          >
+            <h4 
+              id="player-name-h4-id-${index}"
+              class="player-name-and-nick"
+            > 
+              ${player.name} 
+              <br>
+              <p>
+               [${player.nick}], ${player.age} anos
+              </p>
+            </h4>
+
+            <div                 
+              class="player-info-element"
             >
-              <h4 
-                id="player-name-h4-id-${index}"
-                class="player-name-and-nick"
-              > 
-                ${player.name} 
-                <br>
-                <p>
-                 [${player.nick}], ${player.age} anos
-                </p>
-              </h4>
+              <img                   
+                class="icon-img"
+                src="/src/img/pointer.png"
+                alt="#"
+              />
 
-              <div                 
-                class="player-info-element"
+              <p                  
+                class="player-info"
               >
-                <img                   
-                  class="icon-img"
-                  src="/src/img/pointer.png"
-                  alt="#"
-                />
+                ${player.location}
+              </p>
+            </div>
 
-                <p                  
-                  class="player-info"
-                >
-                  ${player.location}
-                </p>
-              </div>
+            <div                 
+              class="player-info-element"
+            >
+              <img                   
+                class="icon-img"
+                src="/src/img/pointer.png"
+                alt="#"
+              />
 
-              <div                 
-                class="player-info-element"
+              <p                  
+                class="player-info"
               >
-                <img                   
-                  class="icon-img"
-                  src="/src/img/pointer.png"
-                  alt="#"
-                />
+                ${player.playStyle}
+              </p>
+            </div>
 
-                <p                  
-                  class="player-info"
-                >
-                  ${player.playStyle}
-                </p>
-              </div>
+            <div                 
+              class="player-info-element"
+            >
+              <img                   
+                class="icon-img"
+                src="/src/img/trophy.png"
+                alt="#"
+              />
 
-              <div                 
-                class="player-info-element"
+              <p                  
+                class="player-info"
               >
-                <img                   
-                  class="icon-img"
-                  src="/src/img/trophy.png"
-                  alt="#"
-                />
+                ${player.championshipOne}
+              </p>
+            </div>
 
-                <p                  
-                  class="player-info"
-                >
-                  ${player.championshipOne}
-                </p>
-              </div>
+            <div                 
+              class="player-info-element"
+            >
+              <img                   
+                class="icon-img"
+                src="/src/img/trophy.png"
+                alt="#"
+              />
 
-              <div                 
-                class="player-info-element"
+              <p                                 
+                class="player-info player-curiosity"
               >
-                <img                   
-                  class="icon-img"
-                  src="/src/img/trophy.png"
-                  alt="#"
-                />
-
-                <p    
-                                
-                  class="player-info player-curiosity"
-                >
-                  ${player.curiosity}
-                </p>
-              </div>
-
-
-              
-
-              
-           </div>
+                ${player.curiosity}
+              </p>
+            </div>              
+          </div>
         </div>
-
-      
-
       </div>
-    
-        
-            
-            
- 
-
-      
-
     `
   })
 }

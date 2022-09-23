@@ -1,0 +1,73 @@
+body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #04425d;
+}
+
+#main {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: #04425d;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+#return-page-link {
+  width: auto;
+  height: 2rem;
+  position: absolute;
+  margin-top: 6.3rem;
+  margin-left: 2rem;
+}
+
+#return-page-link img {
+  width: 2rem;
+  height: 2rem;
+}
+
+#guide-div {
+  width: 65%;
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bolder;
+  background-color: #04425d1f;
+  padding: 2rem;
+  box-sizing: border-box;
+ 
+}
+
+#guide-title-h1 {
+  text-align: left;
+  font-size: 4rem;
+  color: orange;
+}
+
+#guide-title-p {
+  text-align: left;
+  color: white;
+}
+
+#guide-body-div {
+  width: 100%;
+  height: auto;
+}
+
+.guide-description-p {
+  text-align: left;
+  font-weight: normal;
+  font-size: 2rem;
+  color: white;
+}
+
+.guide-description-img,
+.guide-description-video {
+  width: 80%;
+  height: 25rem;
+  margin-bottom: 1rem;
+}

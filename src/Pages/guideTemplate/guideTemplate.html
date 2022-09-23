@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-br"> 
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />   
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,9 +18,9 @@
     />
     <link rel="stylesheet" href="/src/styles/global.css" />
     <link rel="stylesheet" href="/src/styles/globalMediaQueries.css" />
-    <link rel="stylesheet" href="/src/styles/guides/guides.css" />
-    <link rel="stylesheet" href="/src/styles/guides/guidesMediaQueries.css" />
-    <title>Guias</title>
+    <link rel="stylesheet" href="/src/styles/guideTemplate/guideTemplate.css" />
+    <link rel="stylesheet" href="/src/styles/guideTemplate/guideTemplateMediaQueries.css" />    
+    <title>Guia de jogo</title>
   </head>
 
   <body>
@@ -61,7 +61,7 @@
             <ul class="navbar-nav  navbar-nav-style">
               <li class="">
                 <a
-                  class="nav-link-style"                  
+                  class="nav-link-style"                
                   aria-current="page"
                   href="/index.html"
                   >Início</a
@@ -71,7 +71,7 @@
                 <a class="nav-link-style" href="/src/Pages/aboutUs/aboutUs.html">Sobre nós</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link-style" href="#">Guias</a>
+                <a class="nav-link-style" href="/src/Pages/guides/guides.html">Guias</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link-style" href="/src/Pages/news/news.html">Notícias</a>
@@ -132,10 +132,43 @@
       </nav>
     </header>
 
-    <main id="main">      
-      <h1 id="title-h1">GUIAS</h1>
-      <div id="guides-container-grid"></div>
-    </main>   
+    <main id="main">
+      <a id="return-page-link" href="/src/Pages/news/news.html" title="Voltar" >
+        <img
+         src="/src/img/left-arrow.png"
+         alt="Voltar"
+        >        
+      </a>
+
+      <div id="guide-div">
+        <div id="guide-title">
+          <h1 id="guide-title-h1">EXEMPLO: LEGENDS OF RUNETERRA GANHA MODO DE JOGO CAMINHOS DOS CAMPEÕES</h1>
+          <p id="guide-title-p">Autor, 03/09/2022</p>
+        </div>
+
+        <hr>
+
+        <div id="guide-body-div">
+          <p class="guide-description-p">
+            O Caminho dos Campeões é o mais novo modo de Legends of Runeterra. Chegando ao título no dia 10 de novembro, como parte do patch 2.19, o update é um componente do evento RiotX Arcane que celebra o lançamento da nova série animada de League of Legends (LOL). Entre as novidades, está a chegada do campeão Jayce ao jogo.
+          </p>
+
+          <!-- IMAGEM -->
+          <img src="/src/img/BlackBoss.jpg" alt="" class="guide-description-img">
+          
+          <p class="guide-description-p">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga totam ea facilis qui inventore dolorem iste adipisci similique. A omnis nisi eius corrupti odit at, aut fuga fugiat ex quod? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet placeat deleniti adipisci incidunt eos dolor beatae expedita, animi, aut ipsa, perspiciatis nihil. Repellendus accusamus ipsam, reprehenderit incidunt eligendi cum? Laborum?
+          </p>
+
+          <!-- VÍDEO -->
+          <video src="/src/img/Aguentar - 30902.mp4"   class="guide-description-video" controls></video>
+
+          <p class="guide-description-p">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga totam ea facilis qui inventore dolorem iste adipisci similique. A omnis nisi eius corrupti odit at, aut fuga fugiat ex quod?
+          </p>                   
+        </div>       
+      </div>  
+    </main>
 
     <footer id="footer">
       <div id="footer-content">
@@ -143,15 +176,13 @@
         <img class="footer-img" src="/src/img/Hydra_Champion_Vector.png" alt="">
         <p>₢ ALL RIGHTS RESERVED TO HYDRA GAMING</p>        
       </div>
-    </footer>        
+    </footer>  
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
-    <script src="/src/scripts/guides/guides.js"></script>
     <script src="/src/scripts/global.js"></script>
-    <script src="/src/database/database.js"></script>
   </body>
 </html>

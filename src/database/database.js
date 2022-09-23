@@ -140,7 +140,6 @@ const teamsArr = [
         location: 'local 1',
         curiosity: 'curiosidade 1'
       },
-
     ]
   }
 ]

@@ -32,6 +32,7 @@ window.addEventListener('load', (e) => {
   }
 })
 
+
 // DEFINE A POSIÇÃO DO BOTÃO DE REDES SOCIAIS. RELACIONADO À NAVBAR/MENU DE CELULAR AO REDIMENSIONAR A PÁGINA
 window.addEventListener('resize', (e) => {
   const containerFluid = document.querySelector('#container-fluid');
