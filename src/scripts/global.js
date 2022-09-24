@@ -1,5 +1,5 @@
 
-window.addEventListener("DOMContentLoaded", () => {  
+window.addEventListener("DOMContentLoaded", () => {
   setRemoveLoader();
 })
 
@@ -8,9 +8,8 @@ function setRemoveLoader() {
   const loader = document.querySelector('#loader')
 
   setTimeout(() => {
-    console.log('timeout')
-    body.removeChild(loader)
-  }, 1000);
+    body.removeChild(loader);
+  }, 700);
 }
 
 // DEFINE A POSIÇÃO DO BOTÃO DE REDES SOCIAIS. RELACIONADO À NAVBAR/MENU DE CELULAR AO CARREGAR A PÁGINA

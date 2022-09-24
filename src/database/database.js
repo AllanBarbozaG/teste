@@ -46,43 +46,43 @@ const newsArr = [
 // o array abaixo define quantos cards irão surgir na página de guias, a partir do link, do título e da imagem do guia.
 const guidesArr = [
   {
-    guideLink: '/index.html',
+    guideLink: '/src/Pages/guideTemplate/guideTemplate.html',
     guideTitle: 'Guia teste',
     guideImg: '/src/img/Emoetional.jpg'
   },
 
   {
-    guideLink: '/index.html',
+    guideLink: '/src/Pages/guideTemplate/guideTemplate.html',
     guideTitle: 'Guia teste',
     guideImg: '/src/img/Emoetional.jpg'
   },
 
   {
-    guideLink: '/index.html',
+    guideLink: '/src/Pages/guideTemplate/guideTemplate.html',
     guideTitle: 'Guia teste',
     guideImg: '/src/img/Emoetional.jpg'
   },
 
   {
-    guideLink: '/index.html',
+    guideLink: '/src/Pages/guideTemplate/guideTemplate.html',
     guideTitle: 'Guia teste',
     guideImg: '/src/img/Emoetional.jpg'
   },
 
   {
-    guideLink: '/index.html',
+    guideLink: '/src/Pages/guideTemplate/guideTemplate.html',
     guideTitle: 'Guia teste',
     guideImg: '/src/img/Emoetional.jpg'
   },
 
   {
-    guideLink: '/index.html',
+    guideLink: '/src/Pages/guideTemplate/guideTemplate.html',
     guideTitle: 'Guia teste',
     guideImg: '/src/img/Emoetional.jpg'
   },
 
   {
-    guideLink: '/index.html',
+    guideLink: '/src/Pages/guideTemplate/guideTemplate.html',
     guideTitle: 'Guia teste',
     guideImg: '/src/img/Emoetional.jpg'
   },
@@ -94,7 +94,7 @@ const teamsArr = [
   legendsOfRuneterra = {
     players: [
       {
-        photo: '/src/img/person.png',
+        photo: '/src/img/Hydra.png',
         name: 'Nome do Jogador',
         nick: 'player 1',
         age: '30',

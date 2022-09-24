@@ -66,7 +66,7 @@ function setNumberOfPlayerCards() {
             >
               <img                   
                 class="icon-img"
-                src="/src/img/pointer.png"
+                src="/src/img/white-controls.png"
                 alt="#"
               />
 
@@ -96,16 +96,23 @@ function setNumberOfPlayerCards() {
             <div                 
               class="player-info-element"
             >
-              <img                   
+              <img  
+                style="
+                  height: 1.5rem; 
+                  position: relative; 
+                  left: 0.2rem; 
+                  top: 0.1rem
+                "                 
                 class="icon-img"
-                src="/src/img/trophy.png"
+                src="/src/img/interrogation.png"
                 alt="#"
               />
 
-              <p                                 
+              <p  
+                style="font-style: italic;"                               
                 class="player-info player-curiosity"
               >
-                ${player.curiosity}
+                "${player.curiosity}"
               </p>
             </div>              
           </div>

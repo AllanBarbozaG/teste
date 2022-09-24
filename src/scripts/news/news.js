@@ -1,5 +1,5 @@
 window.addEventListener('load', () => {
-  setNumberOfNewsCards()
+  setNumberOfNewsCards();
 })
 
 function setNumberOfNewsCards() {

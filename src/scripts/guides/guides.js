@@ -1,5 +1,5 @@
 window.addEventListener('load', () => {
-  setNumberOfGuideCards()
+  setNumberOfGuideCards();
 })
 
 function setNumberOfGuideCards() {
